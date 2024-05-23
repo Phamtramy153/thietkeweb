@@ -17,10 +17,34 @@
         header {
             background-color: #F37D6F;
             color: white;
-            padding: 10px 0;
+            padding: 10px 20px;
             text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        
+
+        /* Logo */
+        .logo {
+            max-width: 200px;
+            margin: 0;
+        }
+
+        /* Menu */
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
         /* Banner */
         .banner {
             text-align: center;
@@ -61,17 +85,17 @@
 </head>
 <body>
     <header>
-        <h1>Website bán hàng</h1>
         <nav>
             <a href="#">Trang chủ</a> |
             <a href="#">Sản phẩm</a> |
             <a href="#">Dịch vụ</a> |
             <a href="#">Liên hệ</a>
         </nav>
+        <img src="logo.png" alt="Logo" class="logo">
     </header>
     
     <div class="banner">
-        <img src="banner.png" alt="Banner quảng cáo">
+        <img src="banner.png" alt="Banner">
     </div>
     
     <main class="bodywrap">
@@ -79,21 +103,21 @@
             <h2>Sản phẩm nổi bật</h2>
             <div class="product-grid">
                 <div class="product">
-                    <img src="product1.jpg" alt="Hoa len">
+                    <img src="hoalen.png" alt="Hoa len">
                     <h3>Hoa len</h3>
-                    <p>Giá: 120.000</p>
-                    <button>Mua ngay</button>
-                </div>
-                <div class="product">
-                    <img src="product2.jpg" alt="Hoa giấy">
-                    <h3>Hoa giấy</h3>
                     <p>Giá: 150.000</p>
                     <button>Mua ngay</button>
                 </div>
                 <div class="product">
-                    <img src="product3.jpg" alt="Hoa kẽm nhung">
+                    <img src="hoakem.png" alt="Hoa kẽm nhung">
                     <h3>Hoa kẽm nhung</h3>
-                    <p>Giá: 130.000</p>
+                    <p>Giá: 180.000</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="hoadatset.png" alt="Hoa đất sét">
+                    <h3>Sản phẩm 3</h3>
+                    <p>Giá: 179.000</p>
                     <button>Mua ngay</button>
                 </div>
             </div>
@@ -101,7 +125,7 @@
     </main>
     
     <footer>
-        <p>Chúc các bạn mua sắm vui vẻ.</p>
+        <p>Chúc các bạn mua sắm vui vẻ</p>
     </footer>
 </body>
 </html>
