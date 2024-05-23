@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - Website bán hàng</title>
+    <style>
+        /* Thiết lập font và màu chủ đạo */
+        body {
+            font-family: Arial, sans-serif;
+            color: #F37D6F;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Header */
+        header {
+            background-color: #F37D6F;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        /* Banner */
+        .banner {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        /* Danh sách sản phẩm */
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 0 20px;
+        }
+        
+        .product {
+            width: calc(33.33% - 20px);
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Website bán hàng</h1>
+        <nav>
+            <a href="#">Trang chủ</a> |
+            <a href="#">Sản phẩm</a> |
+            <a href="#">Dịch vụ</a> |
+            <a href="#">Liên hệ</a>
+        </nav>
+    </header>
+    
+    <div class="banner">
+        <img src="banner.jpg" alt="Banner quảng cáo">
+    </div>
+    
+    <main class="bodywrap">
+        <section class="featured-products">
+            <h2>Sản phẩm nổi bật</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="product1.jpg" alt="Sản phẩm 1">
+                    <h3>Sản phẩm 1</h3>
+                    <p>Giá: $10</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="Sản phẩm 2">
+                    <h3>Sản phẩm 2</h3>
+                    <p>Giá: $15</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="product3.jpg" alt="Sản phẩm 3">
+                    <h3>Sản phẩm 3</h3>
+                    <p>Giá: $20</p>
+                    <button>Mua ngay</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Bản quyền © 2024 Website bán hàng. Tất cả các quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>
