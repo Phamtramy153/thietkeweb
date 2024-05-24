@@ -1,2 +1,0 @@
-# thietkeweb
-tkw.gitignore
