@@ -266,7 +266,7 @@ header {
     font-size: 20px;
     height: 40px;
     padding: 0 15px;
-    color: var(--text-color);
+    color: #F37D6F;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -279,7 +279,7 @@ header {
 }
 
 .filter-btn{
-    background-color: var(--red);
+    background-color: #F37D6F;
     height: 30px;
     color: var(--white);
     width: 75px;
