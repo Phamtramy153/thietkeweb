@@ -2304,12 +2304,13 @@ input[type=number] {
 
 .detail-order-item i {
     color: var(--red);
-    margin-right: 5px;
+    margin-right: 20px;
 }
 
 .header-middle-right-item.close{
     display: none;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
