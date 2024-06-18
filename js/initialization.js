@@ -4,7 +4,7 @@ function createProduct() {
         let products = [{
             id: 1,
             status: 1, 
-            title: 'Nấm đùi gà xào cháy tỏi',
+            title: 'Bó hoa Len xinh xắn',
             img: 'hoalen1.jpg',
             category: 'Hoa Len',
             price: 200000,
