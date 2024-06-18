@@ -600,7 +600,7 @@ function createAdminAccount() {
             cart: [],
             userType: 1
         })
-        localStorage.setItem('accounts', JSON.stringify(accounts));
+        createProduct(newProduct);
     }
 }
 
