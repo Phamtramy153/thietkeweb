@@ -121,32 +121,32 @@ function createProduct() {
             price: 160000,
             desc: 'Bó hoa mix các loại hoa Tulip, hoa Ly, hoa Cúc với tone màu chủ đạo là hồng phấn chắc chắn sẽ làm xiêu lòng các bạn nữ'
         },
-        {
+         {
             id: 14,
             status: 1, 
-            title: 'Nộm gà Hội An (1 phần)',
-            img: './assets/img/products/nom_ga_hoi_an.png',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Nộm gà làm từ thịt gà ri thả đồi. Thịt gà ngọt, săn được nêm nếm vừa miệng, bóp thấu với các loại rau tạo thành món nộm thơm ngon, đậm đà, giải ngán hiệu quả.'
+            title: 'Hướng Dương ngược nắng',
+            img: 'assets/img/products/hoakem2.jpg',
+            category: 'HOA KẼM NHUNG',
+            price: 180000,
+            desc: 'Một bó hướng dương chắc chắn sẽ là kỉ niệm đẹp không thể quên ngày tốt nghiệp, có lẽ bởi vậy mà nó được ưa chuộng nhất là vào dịp hè.'
         },
         {
             id: 15,
             status: 1, 
-            title: 'Set bún cá (1 set 5 bát)',
-            img: './assets/img/products/set_bun_ca.jpg',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Bún cá được làm đặc biệt hơn với cá trắm lọc xương và chiên giòn, miếng cá nhúng vào nước dùng ăn vẫn giòn dai, thơm ngon vô cùng.'
+            title: 'Anh Đào nở rộ bốn mùa',
+            img: 'assets/img/products/hoakem3.jpg',
+            category: 'HOA KẼM NHUNG',
+            price: 200000,
+            desc: 'Vẫn lấy hồng phấn làm màu chủ đạo cho bó hoa bên cạnh đó tô điểm bằng những bông hoa anh đào nhỏ xinh mà bắt mắt đủ đốn tim những thiếu nữ.'
         },
         {
             id: 16,
             status: 1, 
-            title: 'Bún cá (1 phần)',
-            img: './assets/img/products/set_bun_ca.jpg',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Bún cá được làm đặc biệt hơn với cá trắm lọc xương và chiên giòn, miếng cá nhúng vào nước dùng ăn vẫn giòn dai, thơm ngon vô cùng'
+            title: 'Sắc đỏ quý phái',
+            img: 'assets/img/products/hoakem4.jpg',
+            category: 'HOA KẼM NHUNG',
+            price: 155000,
+            desc: 'Mỗi bông hoa là một câu chuyện. 🌸🌺 Sắc màu của yêu thương, gửi gắm tình cảm trọn vẹn.'
         },
         {
             id: 17,
