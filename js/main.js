@@ -973,3 +973,14 @@ function showCategory(category) {
             const content = await response.text();
             document.getElementById('content').innerHTML = content;
  }
+function showGioiThieu() {
+    // Ẩn các nội dung khác nếu cần
+    document.getElementById('trangchu').classList.add('hide');
+    document.getElementById('account-user').classList.remove('open');
+    document.getElementById('order-history').classList.remove('open');
+    document.getElementById('content').innerHTML = document.getElementById('gioithieu').innerHTML;
+
+    // Cuộn trang lên đầu
+    document.getElementById("home-title").scrollIntoView({ behavior: "smooth" });
+}
+
