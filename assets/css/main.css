@@ -2341,11 +2341,13 @@ input[type=number] {
 }
 
 .review-item {
-    width: calc(30% - 10px); /* 33.33% width with margin in between */
+    width: calc(30% - 40px); /* 33.33% width with margin in between */
     background-color: #fff;
-    padding: 50px;
+    padding: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 15px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -2368,7 +2370,7 @@ input[type=number] {
 .customer-name {
     font-size: 18px;
     margin-bottom: 5px;
-    color: #333;
+    color: #F37D6F;
 }
 
 .customer-review {
@@ -2376,4 +2378,6 @@ input[type=number] {
     color: #666;
     line-height: 1.6;
 }
+
+
 
