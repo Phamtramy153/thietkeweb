@@ -13,7 +13,7 @@ function createProduct() {
         {
             id: 2,
             status: 1, 
-            title: 'Rau xào ngũ sắc',
+            title: 'Bó hoa tulip tone tím',
             img: './assets/img/products/rau-xao-ngu-sac.png',
             category: 'Món mặn',
             price: 180000,
