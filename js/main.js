@@ -958,7 +958,6 @@ function paginationChange(page, productAll, currentPage) {
 // Hiển thị chuyên mục
 function showCategory(category) {
     document.getElementById('trangchu').classList.remove('hide');
-     document.getElementById('gioithieu').classList.remove('open');
     document.getElementById('account-user').classList.remove('open');
     document.getElementById('order-history').classList.remove('open');
     let productSearch = productAll.filter(value => {
