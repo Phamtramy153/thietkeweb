@@ -2341,9 +2341,9 @@ input[type=number] {
 }
 
 .review-item {
-    width: calc(33.33% - 20px); /* 33.33% width with margin in between */
+    width: calc(30% - 10px); /* 33.33% width with margin in between */
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
