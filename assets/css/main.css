@@ -2035,12 +2035,12 @@ input[type=number] {
 }
 
 .checkout-col-left {
-    width: ;
+    width: 100%;
 
 }
 
 .checkout-col-right {
-    width: 30%;
+    width: 40%;
 
 }
 
