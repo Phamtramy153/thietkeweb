@@ -1,6 +1,6 @@
 //Khoi tao danh sach san pham
 function createProduct() {
-     {
+    if (localStorage.getItem('products') == null) {
         let products = [{
             id: 1,
             status: 1, 
@@ -600,7 +600,7 @@ function createAdminAccount() {
             cart: [],
             userType: 1
         })
-        createProduct(newProduct);
+        localStorage.setItem('accounts', JSON.stringify(accounts));
     }
 }
 
