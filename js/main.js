@@ -965,7 +965,12 @@ function showCategory(category) {
     })
     let currentPageSeach = 1;
     displayList(productSearch, perPage, currentPageSeach);
-    setupPagination(productSearch, perPage, currentPageSeach);
+    setupPagination(productSearch, perPage, currentPageSeach
+     if (category === 'Giới thiệu') {
+                document.getElementById('trangchu').classList.add('hide');
+                document.getElementById('gioithieu').classList.remove('hide');
+                document.getElementById('account-user').classList.add('hide');
+                document.getElementById('order-history').classList.add('hide');
     document.getElementById("home-title").scrollIntoView();
 }
 
