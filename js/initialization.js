@@ -4,20 +4,20 @@ function createProduct() {
         let products = [{
             id: 1,
             status: 1, 
-            title: 'Bó hoa Len xinh xắn',
-            img: 'hoalen1.jpg',
-            category: 'Hoa Len',
-            price: 200000,
-            desc: 'Một Món chay ngon miệng với nấm đùi gà thái chân hương, xào săn với lửa và thật nhiều tỏi băm, nêm nếm với mắm và nước tương chay, món ngon đưa cơm và rất dễ ăn cả cho người lớn và trẻ nhỏ.'
+            title: 'Bó hoa Len 4 loại xinh xắn',
+            img: 'assets/img/products/hoalen1.jpg',
+            category: 'HOA LEN',
+            price: 230000,
+            desc: 'Bó hoa len 4 loại xinh xắn gồm hoa hồng, hoa tulip, hoa linh đan, hoa lưu ly'
         },
         {
             id: 2,
             status: 1, 
             title: 'Bó hoa tulip tone tím',
-            img: './assets/img/products/rau-xao-ngu-sac.png',
-            category: 'Món mặn',
-            price: 180000,
-            desc: 'Rau củ quả theo mùa tươi mới xào với nước mắm chay, gia vị để giữ được hương vị ngọt tươi nguyên thủy của rau củ, một món nhiều vitamin và chất khoáng, rất dễ ăn.'
+            img: 'assets/img/products/hoalen2.jpg',
+            category: 'HOA LEN',
+            price: 250000,
+            desc: 'Bó hoa tulip 12 bông tone tím siêu xinh'
         },
         {
             id: 3,
