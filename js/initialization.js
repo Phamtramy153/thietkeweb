@@ -598,3 +598,4 @@ function createAdminAccount() {
 
 window.onload = createProduct();
 window.onload = createAdminAccount();
+window.onload = deleteProduct(id);
