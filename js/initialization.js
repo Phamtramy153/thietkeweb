@@ -13,11 +13,11 @@ function createProduct() {
         {
             id: 2,
             status: 1, 
-            title: 'Bó hoa tuplip len 12 bông tone tím',
-            img: 'assets/img/products/hoalen2.jpg',
-            category: 'Hoa Len',
-            price: 250000,
-            desc: 'Bó hoa tulip len 12 bông tone tím siêu xinh xắn'
+            title: 'Rau xào ngũ sắc',
+            img: './assets/img/products/rau-xao-ngu-sac.png',
+            category: 'Món mặn',
+            price: 180000,
+            desc: 'Rau củ quả theo mùa tươi mới xào với nước mắm chay, gia vị để giữ được hương vị ngọt tươi nguyên thủy của rau củ, một món nhiều vitamin và chất khoáng, rất dễ ăn.'
         },
         {
             id: 3,
