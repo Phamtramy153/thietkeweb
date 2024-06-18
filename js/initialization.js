@@ -4,37 +4,37 @@ function createProduct() {
         let products = [{
             id: 1,
             status: 1, 
-            title: 'Bó hoa Len 4 loại xinh xắn',
+            title: 'Bó hoa Len 4 loại tone hồng',
             img: 'assets/img/products/hoalen1.jpg',
             category: 'HOA LEN',
             price: 230000,
-            desc: 'Bó hoa len 4 loại xinh xắn gồm hoa hồng, hoa tulip, hoa linh đan, hoa lưu ly'
+            desc: 'Bó hoa len 4 loại tone hồng gồm hoa hồng, hoa tulip, hoa linh đan, hoa lưu ly'
         },
         {
             id: 2,
             status: 1, 
-            title: 'Bó hoa tulip tone tím',
+            title: 'Bó hoa tulip len tone tím',
             img: 'assets/img/products/hoalen2.jpg',
             category: 'HOA LEN',
             price: 250000,
-            desc: 'Bó hoa tulip 12 bông tone tím siêu xinh'
+            desc: 'Bó hoa tulip len 12 bông tone tím siêu xinh'
         },
         {
             id: 3,
             status: 1, 
-            title: 'Bánh lava phô mai nướng',
-            img: './assets/img/products/banh_lava_pho_mai_nuong.jpeg',
-            category: 'Món mặn',
-            price: 180000,
-            desc: 'Rau củ quả theo mùa tươi mới xào với nước mắm chay, gia vị để giữ được hương vị ngọt tươi nguyên thủy của rau củ, một món nhiều vitamin và chất khoáng, rất dễ ăn.'
+            title: 'Bó hoa tulip len tone hồng trắng',
+            img: 'assets/img/products/hoalen3.jpg',
+            category: 'HOA LEN',
+            price: 250000,
+            desc: 'Bó hoa tulip len 12 bông tone hồng trắng'
         },
         {
             id: 4,
-            status: 1, title: 'Set lẩu thái Tomyum',
-            img: './assets/img/products/lau_thai.jpg',
-            category: 'Món mặn',
+            status: 1, title: 'Bó hoa len 4 loại tone xanh',
+            img: 'assets/img/products/hoalen4.jpg',
+            category: 'HOA LEN',
             price: 699000,
-            desc: 'Lẩu Thái là món ăn xuất phát từ món canh chua Tom yum nổi tiếng của Thái Lan. Nước lẩu có hương vị chua chua cay cay đặc trưng. Các món nhúng lẩu gồn thịt bò, hải sản, rau xanh và các loại nấm.'
+            desc: 'Bó hoa tulip len tone xanh gồm hoa hồng, hoa tulip, hoa linh đan, hoa lưu ly '
         },
         {
             id: 5,
