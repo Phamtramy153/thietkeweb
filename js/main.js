@@ -959,7 +959,7 @@ function showCategory(category) {
     document.getElementById('trangchu').classList.remove('hide');
     document.getElementById('account-user').classList.remove('open');
     document.getElementById('order-history').classList.remove('open');
-    document.getElementById('gioithieu').classList.add('hide');
+    document.getElementById('gioithieu').classList.remove('open');
     let productSearch = productAll.filter(value => {
         return value.category.toString().toUpperCase().includes(category.toUpperCase());
     })
@@ -976,19 +976,10 @@ function showCategory(category) {
  }
 function showGioiThieu() {
     // Kiểm tra nếu đang hiển thị nội dung giới thiệu thì ẩn nó đi
-    if (document.getElementById('gioithieu').classList.contains('hide')) {
-        // Ẩn các nội dung khác nếu cần
         document.getElementById('trangchu').classList.add('hide'); // Ẩn nội dung trang chủ
         document.getElementById('account-user').classList.remove('open'); // Đóng menu tài khoản nếu đang mở
         document.getElementById('order-history').classList.remove('open'); // Đóng lịch sử đơn hàng nếu đang mở
-
-        // Hiển thị nội dung giới thiệu
-        document.getElementById('content').innerHTML = document.getElementById('gioithieu').innerHTML;
         document.getElementById('gioithieu').classList.remove('hide');
-    } else {
-        // Nếu đang ẩn, thì bấm vào là hiển thị lên
-        document.getElementById('gioithieu').classList.add('hide');
-        document.getElementById('trangchu').classList.remove('hide'); // Hiển thị lại nội dung trang chủ
     }
 
     // Cuộn trang lên đầu
