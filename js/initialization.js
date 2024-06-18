@@ -223,6 +223,15 @@ function createProduct() {
             desc: 'Một 1 set với 3 món ngon mỹ mãn đủ 4 người ăn no, bếp trưởng tự tay chọn từng con cá tầm tươi đủ chất lượng để chế biến đủ 3 món gỏi, nướng, canh chua 10 điểm cho chất lượng.'
         },
         {
+            id: 25,
+            status: 1, 
+            title: 'Khâu nhục',
+            category: 'Món mặn',
+            img: './assets/img/products/khau-nhuc.jpeg',
+            price: 280000,
+            desc: 'Khâu nhục - món ăn cầu kỳ mang phong vị phương Bắc. Làm từ thịt lợn ta, khâu khục được hấp cách thủy trong 6 tiếng cùng với rất nhiều loại gia vị. Thịt mềm nhừ, ngọt vị, phần bì trong và dẻo quẹo. Mỡ ngậy ngậy tan chảy ngay khi vừa đưa lên miệng. Hướng dẫn bảo quản: Hâm nóng lại bằng nồi hấp cách thủy hoặc lò vi sóng. Bảo quản trong tủ mát từ 3-5 ngày.'
+        },
+        {
             id: 26,
             status: 1, 
             title: 'Hoa tulip bằng giấy nhún hồng',
