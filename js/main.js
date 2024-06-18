@@ -1,4 +1,5 @@
 
+
 // Doi sang dinh dang tien VND
 function vnd(price) {
     return price.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
@@ -965,12 +966,7 @@ function showCategory(category) {
     })
     let currentPageSeach = 1;
     displayList(productSearch, perPage, currentPageSeach);
-    setupPagination(productSearch, perPage, currentPageSeach
-     if (category === 'Giới thiệu') {
-                document.getElementById('trangchu').classList.add('hide');
-                document.getElementById('gioithieu').classList.remove('hide');
-                document.getElementById('account-user').classList.add('hide');
-                document.getElementById('order-history').classList.add('hide');
+    setupPagination(productSearch, perPage, currentPageSeach);
     document.getElementById("home-title").scrollIntoView();
 }
 
