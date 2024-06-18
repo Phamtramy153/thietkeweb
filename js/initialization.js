@@ -6,7 +6,7 @@ function createProduct() {
             status: 1, 
             title: 'Nấm đùi gà xào cháy tỏi',
             img: 'hoalen1.jpg',
-            category: 'Món mặn',
+            category: 'Hoa Len',
             price: 200000,
             desc: 'Một Món chay ngon miệng với nấm đùi gà thái chân hương, xào săn với lửa và thật nhiều tỏi băm, nêm nếm với mắm và nước tương chay, món ngon đưa cơm và rất dễ ăn cả cho người lớn và trẻ nhỏ.'
         },
