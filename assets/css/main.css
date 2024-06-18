@@ -2002,7 +2002,7 @@ input[type=number] {
 .checkout-section {
     padding-top: 15px;
     display: flex;
-    column-gap: 20px;
+    column-gap: 350px;
 }
 
 .checkout-row,
@@ -2035,12 +2035,12 @@ input[type=number] {
 }
 
 .checkout-col-left {
-    width: 100%;
+    width: 200%;
 
 }
 
 .checkout-col-right {
-    width: 40%;
+    width: 35%;
 
 }
 
