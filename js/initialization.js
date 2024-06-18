@@ -223,125 +223,124 @@ function createProduct() {
             desc: 'Một 1 set với 3 món ngon mỹ mãn đủ 4 người ăn no, bếp trưởng tự tay chọn từng con cá tầm tươi đủ chất lượng để chế biến đủ 3 món gỏi, nướng, canh chua 10 điểm cho chất lượng.'
         },
         {
-            id: 25,
-            status: 1, 
-            title: 'Chả ốc 1 phần',
-            img: './assets/img/products/cha_oc_1_phan.jpeg',
-            category: 'Món mặn',
-            price: 350000,
-            desc: 'Chả ốc với ốc giòn tan, băm rối, trộn với thịt, lá lốt, rau thơm, nêm nếm vừa ăn và viên tròn, chiên cho giòn ngoài mềm trong. Ăn chả ốc kẹp với rau sống và chấm mắm chua ngọt cực kỳ đưa vị.'
-        },
-
-        {
             id: 26,
             status: 1, 
-            title: 'Gà ủ muối thảo mộc (1 con)',
-            category: 'Món mặn',
-            img: './assets/img/products/ga-u-muoi-thao-moc.png',
-            price: 450000,
-            desc: 'Gà ủ muối tuyển chọn từ gà ri tươi, ủ muối chín tới với gia vị thảo mộc tự nhiên, da gà mỏng, thịt chắc ngọt.'
+            title: 'Hoa tulip bằng giấy nhún hồng',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay1.jpg',
+            price: 45000,
+            desc: 'Một bông hoa tulip làm bằng giấy nhún màu hồng mềm mại, cánh hoa xếp lớp tạo nên vẻ đẹp tinh tế và nhẹ nhàng.'
         },
 
         {
             id: 27,
             status: 1, 
-            title: 'Gà không lối thoát (1 con)',
-            category: 'Món mặn',
-            img: './assets/img/products/ga-khong-loi-thoat.png',
-            price: 520000,
-            desc: 'Gà mái ghẹ size 1.4kg sơ chế sạch sẽ, tẩm ướp gia vị đậm đà, bọc vào trong xôi dẻo từ nếp cái hoa vàng, chiên cho giòn mặt ngoài. Khi ăn cắt phần xôi là gà thơm ngon nghi ngút khói, thịt gà ngấm mềm thơm, miếng xôi ngọt tự nhiên từ thịt gà ăn cực kỳ hấp dẫn.'
+            title: 'Bó tulip bằng giấy màu nghệ thuật origami',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay2.jpg',
+            price: 500000,
+            desc: 'Một bó hoa tulip làm bằng giấy nghệ thuật origami, với những cánh hoa sắc sảo và tinh tế, từng bông hoa được gấp tỉ mỉ từ giấy màu tươi sáng, tạo nên một tác phẩm nghệ thuật sống động và đầy màu sắc.'
         },
 
         {
             id: 28,
             status: 1, 
-            title: 'Cá chiên giòn mắm Thái (1 con)',
-            category: 'Món mặn',
-            img: './assets/img/products/ca-chien-gion-mam-thai.jpeg',
-            price: 350000,
-            desc: 'Cá tươi bếp làm sạch, lạng đôi, ướp cho ngấm và chiên vàng giòn. Thịt cá bên trong óng ánh nước, mềm ngọt, bên ngoài giòn tan hấp dẫn. Thêm sốt mắm Thái đầu bếp làm công thức riêng, vị mắm chua ngọt cay the cực kỳ hợp với cá giòn nóng hổi.'
+            title: 'Bó cúc trắng bằng giấy màu nghệ thuật origami',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay3.jpg',
+            price: 500000,
+            desc: 'Một bó hoa cúc trắng được tạo nên từ nghệ thuật origami, từng cánh hoa trắng tinh khôi được gấp tỉ mỉ và chính xác, mang đến vẻ đẹp thanh thoát và trang nhã. Những bông hoa cúc bằng giấy này toát lên sự tinh tế và tươi mới, là biểu tượng của sự thuần khiết và thanh lịch.'
         },
 
         {
             id: 29,
             status: 1, 
-            title: 'Chân giò chiên giòn mắm Thái',
-            category: 'Món mặn',
-            img: './assets/img/products/chan-gio-chien-gion-mam-thai.jpeg',
+            title: 'Bó tulip bằng giấy nhún hồng phớt',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay4.jpg',
             price: 420000,
-            desc: 'Chân giò lợn đen chọn loại ngon, tỉ lệ nạc mỡ đều đặn, bếp xâm bì cẩn thận và ướp thật ngon, chiên vàng giòn nổi bóng, khi ăn chấm mắm chua ngọt cay cay cực kỳ ngon miệng.'
+            desc: 'Bó hoa tulip hồng phớt bằng giấy nhún là món quà tinh tế và đầy ý nghĩa dành cho những người phụ nữ yêu thích sự nhẹ nhàng và lãng mạn.'
         },
 
         {
             id: 30,
             status: 1, 
-            title: 'Chả cốm (500gr)',
-            category: 'Món mặn',
-            img: './assets/img/products/cha-com.png',
-            price: 175000,
-            desc: 'Cốm mộc làng Vòng hạt dẹt dẻo và thơm đặc biệt, thịt lợn tươi phải chọn phần thịt vai xay vừa mềm lại không bở, trộn đều với cốm, nêm với mắm ngon, gia vị đơn giản và quật hỗn hợp thịt xay và cốm đến khi nào thật chắc và dẻo. Viên mỗi bánh chả phải đều tay, hấp sơ qua cho thành hình, khi ăn mới chiên vàng. Chả cốm khi cắn vào phải giòn và lại thật mềm, tứa nước trong miệng. Cốm dẻo dẻo cuộn trong thịt thơm ngon lạ kỳ.'
+            title: 'Bó hồng vàng bằng giấy nhún',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/'hoagiay5.jpg,
+            price: 500000,
+            desc: 'Bó hoa hồng vàng bằng giấy nhún là món quà sang trọng và đẳng cấp, tượng trưng cho sự giàu sang, phú quý và may mắn. Từng bông hoa được làm thủ công tỉ mỉ từ giấy nhún cao cấp, mô phỏng sống động hình ảnh hoa hồng thật với cánh hoa mềm mại, màu sắc rực rỡ và hương thơm tinh tế.'
         },
 
         {
             id: 31,
             status: 1, 
-            title: 'Vịt om sấu (1 hộp)',
-            category: 'Món mặn',
-            img: './assets/img/products/vit-om-sau.jpeg',
-            price: 350000,
-            desc: '[Mỗi phần có 1,2kg thịt vịt]. Vịt om sấu với thịt vịt mềm thơm, nấu với trái sấu, sả cây, ớt tươi cho ra phần nước om chua thanh và rất thơm. Dùng vịt om sấu với rau mùi tàu, rau thơm và bún rất ngon.'
+            title: 'Bó hồng sặc sỡ mix 4 màu bằng giấy nhún',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay6.jpg',
+            price: 450000,
+            desc: 'Bó hoa hồng sặc sỡ mix 4 màu bằng giấy nhún là món quà độc đáo và ấn tượng, mang đến niềm vui và hạnh phúc cho người nhận. Bó hoa được tạo nên từ sự kết hợp hài hòa của 4 màu sắc rực rỡ: đỏ, xanh, vàng và hồng, tượng trưng cho tình yêu nồng nàn, sự nhiệt huyết, niềm vui và sự may mắn.'
         },
 
         {
             id: 32,
             status: 1, 
-            title: 'Giò xào (1kg)',
-            category: 'Món mặn',
-            img: './assets/img/products/gio-xao.jpeg',
-            price: 460000,
-            desc: 'Giò xào Bếp Hoa đặc biệt được xào khô, ép chặt để tạo độ giòn. Nguyên liệu chính được làm từ tai và lưỡi heo. Khi ăn giò xào, bạn sẽ cảm nhận từng miếng giò vừa giòn vừa thơm lừng mùi tiêu đen và nước mắm.'
+            title: 'Bó hồng đỏ bằng giấy nhún',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay7.jpg',
+            price: 600000,
+            desc: 'Bó hoa hồng đỏ bằng giấy nhún là món quà ý nghĩa và sang trọng, tượng trưng cho tình yêu nồng nàn, sự lãng mạn và lòng chung thủy. Từng bông hoa được làm thủ công tỉ mỉ từ giấy nhún cao cấp, mô phỏng sống động hình ảnh hoa hồng thật với cánh hoa mềm mại, màu đỏ rực rỡ.'
         },
 
         {
             id: 33,
             status: 1, 
-            title: 'Nem tai (1 hộp)',
-            category: 'Món mặn',
-            img: './assets/img/products/nem-tai.jpeg',
-            price: 200000,
-            desc: 'Nem tai giòn sần sật, trộn với thính gạo rang thơm, ăn kèm lá sung bùi bùi, chấm tương ớt hoặc nước chấm đặc điệt, công thức chỉ riêng Bếp Hoa có.'
+            title: 'Bó hồng mix 3 màu bằng giấy nhún',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay8.png',
+            price: 600000,
+            desc: 'Bó hoa hồng mix 3 màu bằng giấy nhún là món quà tinh tế và đầy ý nghĩa, mang đến sự kết hợp hoàn hảo giữa sắc màu rực rỡ và cảm xúc thăng hoa. Từng bông hoa được làm thủ công tỉ mỉ từ giấy nhún cao cấp, mô phỏng sống động hình ảnh hoa hồng thật với cánh hoa mềm mại, màu sắc đa dạng.'
         },
 
         {
             id: 34,
             status: 1, 
-            title: 'Canh dưa bò hầm (1 hộp)',
-            category: 'Món mặn',
-            img: './assets/img/products/canh-dua-bo-ham.jpeg',
-            price: 270000,
-            desc: 'Canh dưa chua hầm nhừ với thịt nạm bò và gân bò. Thơm - ngon - ngọt - béo - chua dịu thanh thanh'
+            title: 'Bó hồng đỏ bằng giấy nhún giấy bọc đen sang trọng',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay9.png',
+            price: 290000,
+            desc: 'Bó hoa hồng đỏ bằng giấy nhún, giấy bọc đen sang trọng là sự kết hợp hoàn hảo giữa vẻ đẹp kiêu sa của hoa hồng đỏ và sự bí ẩn, sang trọng của giấy bọc đen. Món quà này không chỉ thu hút ánh nhìn bởi vẻ ngoài độc đáo mà còn ẩn chứa thông điệp đầy ý nghĩa về tình yêu nồng nàn.'
         },
 
         {
             id: 35,
             status: 1, 
-            title: 'Nạc nọng heo nướng kèm xôi trắng (500gr)',
-            category: 'Món mặn',
-            img: './assets/img/products/nac-nong-heo-nuong-kem-xoi-trang.jpeg',
+            title: 'Bó hồng mix 3 màu đỏ hồng trắng bằng giấy nhún',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay10.png',
             price: 300000,
-            desc: 'Nọng heo - phần thịt ngon nhất trên thủ heo, với những dải thịt nạc mỡ đan xen, mỗi thủ chỉ có được 1-2kg thịt nọng ngon mềm như vậy. Bếp trưởng Bếp Hoa tẩm ướp thật ngấm gia vị, nướng thẳng trên than hoa thơm nức, xém cạnh đẹp mắt. Miếng thịt nướng xong gắp khỏi vỉ vẫn thấy mỡ thơm còn sôi trên dải thịt, để thịt nghỉ vài phút khi thái ra óng ánh nước, gắp miếng thịt chấm với nước sốt siêu ngon độc quyền của Bếp, ngon đến tứa nước miếng, tranh nhau gắp sạch đĩa'
+            desc: 'Một bó hoa hồng được làm từ giấy nhún, kết hợp ba màu sắc rực rỡ: đỏ, hồng và trắng. Mỗi bông hoa được chế tác tỉ mỉ với các cánh hoa mềm mại, tạo nên sự hài hòa giữa màu sắc và kết cấu. Bó hoa không chỉ đẹp mắt mà còn toát lên vẻ lãng mạn và tinh tế, là món quà hoàn hảo để biểu đạt tình cảm và sự quan tâm.'
         },
 
         {
             id: 36,
             status: 1, 
-            title: 'Thịt quay (400gr)',
-            category: 'Món mặn',
-            img: './assets/img/products/thit-quay.jpeg',
+            title: 'Bó hồng vàng sang trọng bằng giấy nhún',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay11.png',
             price: 280000,
-            desc: 'Thịt lợn quay thơm mùi lá mắc mật. Ngoài bì giòn rụm, thịt bên trong mềm, hương vị đậm đà. Đặc biệt, bếp có loại sốt chấm thịt được pha bằng công thức riêng biệt chỉ Bếp Hoa mới có.Hướng dẫn sử dụng: Sử dụng ngay trong ngày. Bảo quản trong tủ mát.'
+            desc: 'Một bó hoa hồng vàng sang trọng, được chế tác tỉ mỉ từ giấy nhún. Mỗi cánh hoa vàng rực rỡ được tạo hình mềm mại và tự nhiên, tạo nên vẻ đẹp lộng lẫy và quyến rũ. Bó hoa không chỉ mang đến cảm giác ấm áp và tươi sáng, mà còn toát lên sự quý phái và đẳng cấp, là món quà hoàn hảo cho những dịp đặc biệt và trang trọng.'
         },
 
+        {
+            id: 37,
+            status: 1, 
+            title: 'Bó hồng mix 2 màu trắng hồng tặng người yêu bằng giấy nhún',
+            category: 'HOA GIẤY',
+            img: './assets/img/products/hoagiay12.png',
+            price: 300000,
+            desc: 'Một bó hoa hồng mix hai màu trắng và hồng, được làm từ giấy nhún, tặng người yêu. Mỗi bông hoa được chế tác tinh xảo với cánh hoa mềm mại, màu trắng tinh khôi hòa quyện cùng màu hồng dịu dàng. Bó hoa thể hiện tình cảm chân thành và lãng mạn, mang thông điệp về sự thuần khiết và tình yêu ngọt ngào. Đây là món quà hoàn hảo để gửi gắm những cảm xúc đặc biệt đến người yêu thương.'
+        },
         {
             id: 37,
             status: 1, 
