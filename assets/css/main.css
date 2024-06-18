@@ -2035,12 +2035,12 @@ input[type=number] {
 }
 
 .checkout-col-left {
-    width: 80%;
+    width: 70%;
 
 }
 
 .checkout-col-right {
-    width: 20%;
+    width: 30%;
 
 }
 
@@ -2293,7 +2293,7 @@ input[type=number] {
 }
 
 .detail-order-item-left {
-    width: 4%;
+    width: 40%;
 }
 
 .detail-order-item-right {
@@ -2304,7 +2304,7 @@ input[type=number] {
 
 .detail-order-item i {
     color: var(--red);
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 .header-middle-right-item.close{
