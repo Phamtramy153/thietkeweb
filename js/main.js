@@ -975,12 +975,20 @@ function showCategory(category) {
  }
 function showGioiThieu() {
     // Ẩn các nội dung khác nếu cần
-    document.getElementById('trangchu').classList.add('hide');
-    document.getElementById('account-user').classList.remove('open');
-    document.getElementById('order-history').classList.remove('open');
-    document.getElementById('content').innerHTML = document.getElementById('gioithieu').innerHTML;
+    document.getElementById('trangchu').classList.add('hide'); // Ẩn nội dung trang chủ
+    document.getElementById('account-user').classList.remove('open'); // Đóng menu tài khoản nếu đang mở
+    document.getElementById('order-history').classList.remove('open'); // Đóng lịch sử đơn hàng nếu đang mở
+    
+    // Kiểm tra nếu đang hiển thị trang giới thiệu thì ẩn đi
+    if (!document.getElementById('gioithieu').classList.contains('hide')) {
+        document.getElementById('gioithieu').classList.add('hide');
+    } else {
+        // Nếu không đang hiển thị, thì hiển thị nó lên
+        document.getElementById('content').innerHTML = document.getElementById('gioithieu').innerHTML;
+    }
 
     // Cuộn trang lên đầu
     document.getElementById("home-title").scrollIntoView({ behavior: "smooth" });
 }
+
 
