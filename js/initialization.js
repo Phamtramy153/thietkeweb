@@ -14,7 +14,7 @@ function createProduct() {
             id: 2,
             status: 1, 
             title: 'Bó hoa tuplip len 12 bông tone tím',
-            img: 'hoalen2.jpg',
+            img: 'assets/img/products/hoalen2.jpg',
             category: 'Hoa Len',
             price: 250000,
             desc: 'Bó hoa tulip len 12 bông tone tím siêu xinh xắn'
