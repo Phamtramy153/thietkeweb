@@ -967,3 +967,9 @@ function showCategory(category) {
     setupPagination(productSearch, perPage, currentPageSeach);
     document.getElementById("home-title").scrollIntoView();
 }
+
+ async function loadPage(url) {
+            const response = await fetch(url);
+            const content = await response.text();
+            document.getElementById('content').innerHTML = content;
+ }
