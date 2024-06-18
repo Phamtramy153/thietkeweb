@@ -959,6 +959,7 @@ function showCategory(category) {
     document.getElementById('trangchu').classList.remove('hide');
     document.getElementById('account-user').classList.remove('open');
     document.getElementById('order-history').classList.remove('open');
+    document.getElementById('gioithieu').classList.remove('open');
     let productSearch = productAll.filter(value => {
         return value.category.toString().toUpperCase().includes(category.toUpperCase());
     })
