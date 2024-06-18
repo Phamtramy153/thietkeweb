@@ -112,14 +112,14 @@ function createProduct() {
             price: 140000,
             desc: 'Những miếng há cảo, sủi cảo, hoành thánh với phần nhân tôm, sò điệp, hải sản tươi ngon hay nhân thịt heo thơm ngậy chắc chắn sẽ khiến bất kỳ ai thưởng thức đều cảm thấy rất ngon miệng.'
         },
-        {
+        { 
             id: 13,
             status: 1, 
-            title: 'Chả rươi (100gr)',
-            img: './assets/img/products/thit_nuong.jpg',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Chả rươi luôn mang đến hương vị khác biệt và "gây thương nhớ" hơn hẳn so với các loại chả khác. Rươi béo càng ăn càng thấy ngậy. Thịt thơm quyện mùi thì là và vỏ quýt rất đặc sắc. Chắc chắn sẽ là một món ăn rất hao cơm'
+            title: 'Tulip mix Ly Trendy',
+            img: './assets/img/products/hoakem1.jpg',
+            category: 'HOA KẼM NHUNG',
+            price: 160000,
+            desc: 'Bó hoa mix các loại hoa Tulip, hoa Ly, hoa Cúc với tone màu chủ đạo là hồng phấn chắc chắn sẽ làm xiêu lòng các bạn nữ'
         },
         {
             id: 14,
