@@ -39,78 +39,83 @@ function createProduct() {
         {
             id: 5,
             status: 1, 
-            title: 'Cơm chiên cua',
-            img: './assets/img/products/com_chien_cua.png',
-            category: 'Món mặn',
-            price: 280000,
-            desc: 'Cơm nấu từ gạo ST25 dẻo, hạt cơm tơi ngon, thịt cua tươi chắc nịch, bếp đảo cho săn hạt cơm, rồi đổ cua đã xào thơm vào, xúc miếng cơm chiên cua đầy đặn có thêm hành phi giòn rụm, món ngon như vậy đảm bảo tranh nhau đến miếng cuối cùng.'
+            title: 'Hoa len hồng xoán',
+            img: 'assets/img/products/hoalen5.jpg',
+            category: 'HOA LEN',
+            price: 220000,
+            desc: 'Bó hoa len hồng xoắn buộc nơ siêu xinh. Mẫu hoa cưới.'
         },
 
         {
-            id: 6,
+            d: 6,
             status: 1, 
-            title: 'Súp bào ngư hải sâm (1 phần)',
-            img: './assets/img/products/sup-bao-ngu-hai-sam.jpeg',
-            category: 'Món mặn',
-            price: 540000,
-            desc: 'Súp bào ngư Bếp Hoa có bào ngư kết hợp cùng sò điệp, tôm tươi... được hầm trong nhiều giờ với rau củ & nấm đông trùng tạo ra vị ngọt tự nhiên hiếm thấy. Một món ăn khiến cả người ốm cũng thấy ngon miệng đó ạ.'
+            title: 'Bó hoa len hồng cam',
+            img: 'assets/img/products/hoalen6.jpg',
+            category: 'HOA LEN',
+            price: 220000,
+            desc: 'Bó hoa len xoắn hồng cam'
+      
         },
 
         {
-            id: 7,
+             id: 7,
             status: 1, 
-            title: 'Tai cuộn lưỡi',
-            category: 'Món mặn',
-            img: './assets/img/products/tai-cuon-luoi.jpeg',
-            price: 340000,
-            desc: 'Tai heo được cuộn bên trong cùng phần thịt lưỡi heo. Phần tai bên ngoài giòn dai, phần thịt lưỡi bên trong vẫn mềm, có độ ngọt tự nhiên của thịt. Tai cuộn lưỡi được chấm với nước mắm và tiêu đen.'
+            title: 'Tulip tím',
+            category: 'HOA LEN',
+            img: 'assets/img/products/hoalen7.jpg',
+            price: 260000,
+            desc: 'Bó hoa tulip len tone tím mix hoa bi'
+        
+
         },
 
         {
-            id: 8,
+           id: 8,
             status: 1, 
-            title: 'Xíu mại tôm thịt 10 viên',
-            img: './assets/img/products/xiu_mai_tom_thit_10_vien.jpg',
-            category: 'Món mặn',
-            price: 140000,
-            desc: 'Quý khách hấp chín trước khi ăn. Những miếng há cảo, sủi cảo, hoành thánh với phần nhân tôm, sò điệp, hải sản tươi ngon hay nhân thịt heo thơm ngậy chắc chắn sẽ khiến bất kỳ ai thưởng thức đều cảm thấy rất ngon miệng.'
+            title: 'Purple Lily',
+            img: 'assets/img/products/hoalen8.jpg,
+            category: 'HOA LEN',
+            price: 260000,
+            desc: 'Bó hoa ly mix cùng hoa hồng và hoa lưu ly tone tím chưa bao giờ hết hot'
         },
 
         {
             id: 9,
             status: 1, 
-            title: 'Trà phô mai kem sữa',
-            category: "Nước uống",
-            img: './assets/img/products/tra-pho-mai-kem-sua.jpg',
-            price: 34000,
-            desc: 'Món Nước uống vừa béo ngậy, chua ngọt đủ cả mà vẫn có vị thanh của trà.',
+            title: 'Hoa len cẩm chướng tone hồng',
+            category: "HOA LEN",
+            img: 'assets/img/products/hoalen9.jpg',
+            price: 245000,
+            desc: 'Hoa len cẩm chướng mix hoa lưu ly tone hồng mới lạ',
+        
         },
         {
             id: 10,
             status: 1, 
-            title: 'Trà đào chanh sả',
-            category: "Nước uống",
-            img: './assets/img/products/tra-dao-chanh-sa.jpg',
-            price: 25000,
-            desc: 'Trà đào chanh sả có vị đậm ngọt thanh của đào, vị chua chua dịu nhẹ của chanh và hương thơm của sả.',
+            title: 'Hoa len tốt nghiệp',
+            category: "HOA LEN",
+            img: 'assets/img/products/hoalen10.jpg',
+            price: 250000,
+            desc: 'Mùa tốt nghiệp tới không thể thiếu những bó hoa hướng dương siêu xinh'
+            
         },
         {
             id: 11,
             status: 1, 
-            title: 'Bánh chuối nướng',
-            category: 'Món tráng miệng',
-            img: './assets/img/products/banh-chuoi-nuong.jpeg',
-            price: 60000,
-            desc: 'Bánh chuối nướng béo ngậy mùi nước cốt dừa cùng miếng chuối mềm ngon sẽ là Món tráng miệng phù hợp với mọi người.'
+            title: 'Green Tulip',
+            category: 'HOA LEN',
+            img: 'assets/img/products/hoalen11.jpg',
+            price: 180000,
+            desc: 'Bó tulip len tone xanh mix cùng ếch xanh siêu đáng yêu'
         },
         {
             id: 12,
             status: 1, 
-            title: 'Há cảo sò điệp (10 viên)',
-            img: './assets/img/products/ha_cao.jpg',
-            category: 'Món mặn',
-            price: 140000,
-            desc: 'Những miếng há cảo, sủi cảo, hoành thánh với phần nhân tôm, sò điệp, hải sản tươi ngon hay nhân thịt heo thơm ngậy chắc chắn sẽ khiến bất kỳ ai thưởng thức đều cảm thấy rất ngon miệng.'
+            title: 'Hộp hoa linh đan',
+            img: 'assets/img/products/hoalen12.jpg',
+            category: 'HOA LEN',
+            price: 320000,
+            desc: 'Hoa linh đan đóng hộp trong suốt siêu xinh làm quà sinh nhật không thể hợp hơn'
         },
         { 
             id: 13,
