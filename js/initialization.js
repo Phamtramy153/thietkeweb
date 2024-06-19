@@ -116,7 +116,7 @@ function createProduct() {
             id: 13,
             status: 1, 
             title: 'Tulip mix Ly Trendy',
-            img: './assets/img/products/hoakem1.jpg',
+            img: 'assets/img/products/hoakem1.jpg',
             category: 'HOA KẼM NHUNG',
             price: 160000,
             desc: 'Bó hoa mix các loại hoa Tulip, hoa Ly, hoa Cúc với tone màu chủ đạo là hồng phấn chắc chắn sẽ làm xiêu lòng các bạn nữ'
