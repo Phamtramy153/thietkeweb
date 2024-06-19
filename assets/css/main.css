@@ -2454,4 +2454,18 @@ input[type=number] {
     height: auto;
     border-radius: 8px;
 }
+.intro h2
+{
+text-align: center;
+color: #F37D6F;
+font-size: 30px;
+margin-bottom: 30px;
+}
+.intro p
+{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 2;
+}
+
 
