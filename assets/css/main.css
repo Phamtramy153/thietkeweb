@@ -2393,6 +2393,8 @@ input[type=number] {
     background-color: #F4968A;
     padding: 30px;
     border-radius: 20px;
+    opacity: 0; /* Initially hide the elements */
+    transition: transform 0.3s ease;
 }
 
 .vision h3, .mission h3 {
@@ -2484,16 +2486,16 @@ margin-top: 30px
 }
 
 .vision {
-            animation: slideInFromLeft 1s forwards; /* Animation for vision */
+            animation: slideInFromLeft 2s forwards; /* Animation for vision */
         }
 
         .mission {
-            animation: slideInFromRight 1s forwards; /* Animation for mission */
+            animation: slideInFromRight 2s forwards; /* Animation for mission */
         }
 
         @keyframes slideInFromLeft {
             from {
-                transform: translateX(-100%);
+                transform: translateX(-20%);
                 opacity: 0;
             }
             to {
@@ -2504,7 +2506,7 @@ margin-top: 30px
 
         @keyframes slideInFromRight {
             from {
-                transform: translateX(100%);
+                transform: translateX(20%);
                 opacity: 0;
             }
             to {
