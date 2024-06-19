@@ -52,11 +52,14 @@
         document.getElementById('contact-form').addEventListener('submit', function(event) {
             event.preventDefault(); // Prevent default form submission
 
-            // Display confirmation message
-            alert('Thông tin của bạn đã được gửi thành công!');
+            // Display success message
+            document.getElementById('success-message').style.display = 'block';
 
-            // Clear form fields
-            this.reset();
+            // Clear form fields after 3 seconds
+            setTimeout(function() {
+                document.getElementById('success-message').style.display = 'none';
+                document.getElementById('contact-form').reset();
+            }, 3000);
         });
     </script>
 </body>
