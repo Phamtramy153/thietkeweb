@@ -2489,6 +2489,7 @@ margin-top: 30px
 #content.open {
         display: flex !important;
 }
+
 .content-wrapper {
     display: none; /* Ẩn mặc định */
 }
@@ -2504,4 +2505,3 @@ margin-top: 30px
 .open {
     display: block;
 }
-
