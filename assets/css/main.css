@@ -2489,5 +2489,20 @@ margin-top: 30px
 #content.open {
         display: flex !important;
 }
+.content-wrapper {
+    display: none; /* Ẩn mặc định */
+}
+
+.content-wrapper.open {
+    display: block; /* Hiển thị khi có lớp 'open' */
+}
+
+.hide {
+    display: none;
+}
+
+.open {
+    display: block;
+}
 
 
