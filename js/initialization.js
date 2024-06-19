@@ -142,85 +142,85 @@ function createProduct() {
         {
             id: 16,
             status: 1, 
-            title: 'Sắc đỏ quý phái',
+            title: 'Sắc Đỏ Quý Phái',
             img: 'assets/img/products/hoakem4.jpg',
             category: 'HOA KẼM NHUNG',
             price: 155000,
-            desc: 'Mỗi bông hoa là một câu chuyện. 🌸🌺 Sắc màu của yêu thương, gửi gắm tình cảm trọn vẹn.'
+            desc: 'Mỗi bông hoa là một câu chuyện. Sắc màu của yêu thương, gửi gắm tình cảm trọn vẹn.'
         },
         {
             id: 17,
             status: 1, 
-            title: 'Xôi trắng hành phi (1 phần)',
-            img: './assets/img/products/bun_ca_hanh_phi.jpeg',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Bún cá được làm đặc biệt hơn với cá trắm lọc xương và chiên giòn, miếng cá nhúng vào nước dùng ăn vẫn giòn dai, thơm ngon vô cùng'
+            title: 'Giỏ Tulip phối màu tùy chọn',
+            img: 'assets/img/products/hoakem5.jpg',
+            category: 'HOA KẼM NHUNG',
+            price: 100000,
+            desc: 'Cần gì phải nói nhiều, chỉ cần một bó hoa đẹp là bạn đã thể hiện được tình cảm của mình rồi!'
         },
         {
             id: 18,
             status: 1, 
-            title: 'Tôm sú lột rang thịt (1 phần)',
-            img: './assets/img/products/tom_su_luot_ran_thit.png',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Tôm sú tươi rim với thịt. rim kỹ, vừa lửa nên thịt và tôm săn lại, ngấm vị, càng ăn càng thấy ngon.'
+            title: 'Tulip đỏ chứng tỏ rất xinh',
+            img: 'assets/img/products/hoakem6.jpg',
+            category: 'HOA KẼM NHUNG',
+            price: 90000,
+            desc: 'Màu đỏ không chỉ phù hợp với hoa hồng mà còn phù hợp với cả tulip nữa, bạn nam tặng bạn nữ chắc chắn phù hợp vào mọi dịp lễ.'
         },
         {
             id: 19,
             status: 1, 
-            title: 'Bánh cookie dừa',
-            img: './assets/img/products/banh_cookie_dua.jpeg',
-            category: 'Món mặn',
-            price: 130000,
-            desc: 'Bánh cookie dừa ngọt vừa miệng, dừa bào tươi nhào bánh nướng giòn tan, cắn vào thơm lừng, giòn rụm'
+            title: 'Hoàng Hôn Nhiệt Đới',
+            img: 'assets/img/products/hoakem7.jpg',
+            category: 'HOA KẼM NHUNG',
+            price: 80000,
+            desc: 'Với cách mix màu cực kì nhiệt đới cộng thêm giấy bó với tone màu trầm làm nổi bật nội dung chính là những bông hoa màu sắc rực rỡ'
         },
         {
             id: 20,
             status: 1, 
-            title: 'Cá chiên giòn sốt mắm Thái',
-            img: './assets/img/products/sot_mam_thai.jpeg',
-            category: 'Món mặn',
-            price: 130000,
-            desc: 'Bánh cookie dừa ngọt vừa miệng, dừa bào tươi nhào bánh nướng giòn tan, cắn vào thơm lừng, giòn rụm'
+            title: 'Ánh Dương Tím',
+            img: 'assets/img/products/hoakem8.jpg',
+            category: 'HOA KẼM NHUNG',
+            price: 70000,
+            desc: 'Nhận custom bó hoa theo màu sắc yêu cầu của khách hàng, tuy là những bó hoa đơn sắc nhưng nhan sắc chắc chắn không thua những bó hoa sặc sỡ đầy màu sắc.'
         },
         {
             id: 21,
             status: 1, 
-            title: 'Tôm sú rang muối (1 suất)',
-            category: 'Món mặn',
-            img: './assets/img/products/tom-su-rang-muoi.jpeg',
-            price: 550000,
-            desc: 'Từng chú tôm sú được chọn lựa kĩ càng mỗi ngày, đảm bảo là tôm tươi sống, vẫn còn đang bơi khỏe. Tôm rang muối vừa đậm đà lại vẫn giữ được vị ngọt tự nhiên của tôm sú.'
+            title: 'Tím Thủy Chung',
+            category: 'HOA KẼM NHUNG',
+            img: 'assets/img/products/hoakem9.jpg',
+            price: 99000,
+            desc: 'Nhiều bạn ưa thích tone màu chủ đạo tím chắc chắn không thể bỏ qua. Màu tím lavender chủ đạo, điểm xuyết thêm những cánh hoa tulip nhỏ nhắn, bó hoa này mang lại cảm giác bình yên và thơ mộng.'
         },
         {
             id: 22,
             status: 1, 
-            title: 'Tôm sú rang bơ tỏi (1 suất)',
-            category: 'Món mặn',
-            img: './assets/img/products/tom-su-rang-bo-toi.jpeg',
-            price: 550000,
-            desc: 'Tôm được chiên vàng giòn bên ngoài, bên trong thịt tôm vẫn mềm, kết hợp cùng sốt bơ tỏi thơm nức . Tôm tươi được Bếp Hoa chiên theo bí quyết riêng nên phần thịt tôm bên trong sẽ có hương vị thơm ngon đặc biệt, sốt bơ tỏi béo ngậy hấp dẫn. Ăn kèm bánh mỳ rất hợp'
+            title: 'Bông Cúc Tím',
+            category: 'HOA KẼM NHUNG',
+            img: 'assets/img/products/hoakem10.jpg',
+            price: 140000,
+            desc: 'Với những bông cúc tím đan xen với lá xanh khiến ta mường tượng như được đắm chìm vào một không gian mở nơi dẫn đến khu vườn của những bông cúc tuy nhỏ mà xinh.'
         },
 
         {
             id: 23,
             status: 1, 
-            title: 'Combo Vịt quay và gỏi vịt',
-            category: 'Món mặn',
-            img: './assets/img/products/combo-vitquay-va-goivit.jpeg',
-            price: 510000,
-            desc: 'Combo vịt quay Bếp Hoa + gỏi vịt bắp cải size đại cực kỳ thích hợp cho những bữa ăn cần nhiều rau, nhiều đạm mà vẫn đảm bảo ngon miệng. Vịt quay chuẩn Macao giòn da thấm thịt, thêm phần gỏi vịt chua chua ngọt ngọt, rau tươi giòn ăn chống ngán, cân bằng dinh dưỡng.'
+            title: 'Hello Teddy',
+            category: 'HOA KẼM NHUNG',
+            img: 'assets/img/products/hoakem11.jpg',
+            price: 105000,
+            desc: 'Kết hợp giữa chú gấu Teddy làm tâm điểm cùng những bông cúc đủ màu, là điều thu hút những tâm hồn yêu cái đẹp của thiếu nữ.'
         },
 
         {
             id: 24,
             status: 1, 
-            title: 'Set cá cơm tầm',
-            img: './assets/img/products/set_ca_tam.jpg',
+            title: 'Tulip Ánh Sao',
+            img: 'assets/img/products/hoakem12.jpg',
             category: 'Món mặn',
-            price: 950000,
-            desc: 'Một 1 set với 3 món ngon mỹ mãn đủ 4 người ăn no, bếp trưởng tự tay chọn từng con cá tầm tươi đủ chất lượng để chế biến đủ 3 món gỏi, nướng, canh chua 10 điểm cho chất lượng.'
+            price: 210000,
+            desc: 'Với tulip hồng làm chủ đạo, bó hoa được tô điểm bởi những ngọn đèn lấp lánh, tạo nên vẻ đẹp rực rỡ và lung linh trong đêm. '
         },
         {
             id: 25,
