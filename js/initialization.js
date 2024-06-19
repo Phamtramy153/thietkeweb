@@ -212,7 +212,7 @@ function createProduct() {
             status: 1, 
             title: 'Tulip Ánh Sao',
             img: 'assets/img/products/hoakem12.jpg',
-            category: 'Món mặn',
+            category: 'HOA KẼM NHUNG',
             price: 210000,
             desc: 'Với tulip hồng làm chủ đạo, bó hoa được tô điểm bởi những ngọn đèn lấp lánh, tạo nên vẻ đẹp rực rỡ và lung linh trong đêm. '
         },
