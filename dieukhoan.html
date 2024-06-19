@@ -3,51 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Điều khoản - FLOHAN</title>
+    <title>Điều khoản</title>
+    <link rel="stylesheet" href="assets/css/main.css">
     <style>
+        /* Đặt các thuộc tính cơ bản cho body */
+       
+        /* Định dạng container */
         
+
+        /* Định dạng cho tiêu đề h1 */
         h1 {
+            text-align: center;
             color: #F37D6F;
-            font-size: 1.5em; 
-            text-align: center; 
-            margin-bottom: 0.5em; 
-            margin-top: 0.5em; 
+            margin-bottom: 20px;
+            font-size: 1.75em;
         }
+
+        /* Định dạng cho tiêu đề h2 */
         h2 {
-            color: #F9A18F; 
-            font-size: 1.2em; 
-            margin-bottom: 1em; 
+            color: #F3A699;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 1.25em;
         }
 
-        
-        ul {
-            list-style: none; 
-            padding-left: 0; 
+        /* Định dạng cho các mục trong danh sách */
+        .custom-list li {
+            position: relative;
+            margin-bottom: 10px;
+            padding-left: 20px;
         }
-        
 
-        
-        p {
-            margin-bottom: 1.5em; 
-            font-size: 0.9em; 
+        .custom-list li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #000;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Điều khoản và chính sách</h1>
-        <p>Chào mừng bạn đến với Flohan! Bằng việc truy cập và sử dụng website của chúng tôi, bạn đồng ý tuân thủ các điều khoản sử dụng dưới đây. Vui lòng đọc kỹ trước khi sử dụng dịch vụ của chúng tôi.</p>
 
-        <h2>Chấp nhận điều khoản</h2>       
-        <p>Khi sử dụng website của chúng tôi, bạn đồng ý tuân theo các điều khoản và chính sách này. Nếu bạn không đồng ý với bất kỳ điều khoản nào, vui lòng không sử dụng website của chúng tôi.</p>
+        <div class="section">
+            <h2>Chào mừng bạn đến với Flohan!</h2>
+            <p>Bằng việc sử dụng website của Flohan, bạn đồng ý tuân theo các điều khoản và chính sách được đề ra. Nếu không đồng ý, vui lòng không sử dụng website.</p>
+        </div>
 
-        <h2>Sử dụng website</h2>
-        <p>Bạn có thể truy cập và sử dụng nội dung trên website của chúng tôi cho mục đích cá nhân và phi thương mại. Bạn không được sao chép, tái sử dụng hoặc phân phối nội dung mà không có sự đồng ý bằng văn bản từ Flohan.</p>
+        <div class="section">
+            <h2>Chấp nhận điều khoản</h2>       
+            <p>Khi sử dụng website của chúng tôi, bạn đồng ý tuân theo các điều khoản và chính sách này. Nếu bạn không đồng ý với bất kỳ điều khoản nào, vui lòng không sử dụng website của chúng tôi.</p>
+        </div>
 
-        <h2>Chính sách bảo mật</h2>
-        <ul>
-            <li>Chúng tôi thu thập, lưu trữ và xử lý thông tin của bạn cho quá trình mua hàng và cho những thông báo sau này liên quan đến đơn hàng, và để cung cấp dịch vụ, bao gồm một số thông tin cá nhân: Họ tên, Số điện thoại, Email, Địa chỉ, chi tiết thanh toán bằng thẻ hoặc tài khoản ngân hàng.</li>
-            <li>Chúng tôi sẽ sử dụng thông tin bạn đã cung cấp để xử lý đơn đặt hàng, giao hàng, cung cấp dịch vụ và thông tin yêu cầu thông qua website và theo yêu cầu của bạn.</li>
-            <li>Để đảm bảo việc giao hàng chính xác và nhanh chóng, chúng tôi có thể chia sẻ thông tin cá nhân của bạn (như tên, địa chỉ và số điện thoại) với các đơn vị giao hàng đáng tin cậy. Các đơn vị này cam kết bảo mật thông tin và chỉ sử dụng cho mục đích giao hàng.</li>
-            <li>Chúng tôi cam kết bảo mật thông tin cá nhân của bạn và không chia sẻ với bên không liên quan.</li>
-            <li>Bạn có quyền yêu cầu truy cập, sửa đổi hoặc xóa thông tin cá nhân của mình. Vui lòng liên hệ với chúng t
+        <div class="section">
+            <h2>Sử dụng website</h2>
+            <ul class="custom-list">
+                <li>Nội dung trên website chỉ được sử dụng cho mục đích cá nhân và phi thương mại. Không sao chép, tái sử dụng hoặc phân phối nội dung nếu không có sự đồng ý bằng văn bản từ Flohan.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Chính sách bảo mật</h2>
+            <ul class="custom-list">
+                <li>Chúng tôi thu thập thông tin cá nhân (Họ tên, Số điện thoại, Email, Địa chỉ, Chi tiết thanh toán) để xử lý đơn hàng và cung cấp dịch vụ.</li>
+                <li>Chúng tôi để chia sẻ thông tin cá nhân với các đơn vị giao hàng đáng tin cậy nhằm đảm bảo giao hàng chính xác và nhanh chóng.</li>
+                <li>Cam kết bảo mật thông tin cá nhân và không chia sẻ với bên không liên quan.</li>
+                <li>Bạn có quyền yêu cầu truy cập, sửa đổi hoặc xóa thông tin cá nhân của mình. Vui lòng liên hệ với chúng tôi qua mục liên hệ để thực hiện quyền này.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Chính sách giao hàng</h2>
+            <ul class="custom-list">
+                <li>Hiện tại cửa hàng chỉ phục vụ giao dịch trong nước, giao hàng đến tất cả các khu vực trong nước.</li>
+                <li>Thời gian giao hàng dự kiến từ 3-5 ngày, tùy thuộc vào địa điểm giao hàng.</li>
+                <li>Phí giao hàng được tính theo khoảng cách từ địa chỉ cung cấp.</li>
+                <li>Sau khi đơn hàng được gửi đi, bạn sẽ nhận được email xác nhận với thông tin theo dõi đơn hàng.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Chính sách hoàn trả</h2>
+            <ul class="custom-list">
+                <li>Hỗ trợ đổi trả hàng trong vòng 7 ngày kể từ khi nhận hàng nếu có lý do hợp lý, phí vận chuyển do khách hàng chịu.</li>
+                <li>Nếu lỗi bên cửa hàng như sản phẩm bị lỗi, gửi sai mẫu hoặc thiếu số lượng, cửa hàng sẽ chịu trách nhiệm đổi hàng miễn phí.</li>
+                <li>Trường hợp hoàn tiền, số tiền sẽ được chuyển khoản vào tài khoản do khách hàng cung cấp.</li>
+                <li>Thời gian nhận sản phẩm mới khi đổi trả tính từ khi cửa hàng nhận được sản phẩm hoàn về hoặc yêu cầu bổ sung.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
