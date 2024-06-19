@@ -12,26 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
      <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Xử lý sự kiện click cho menu-link
-            var menuLinks = document.querySelectorAll('.menu-link');
-            menuLinks.forEach(function(link) {
-                link.addEventListener('click', function() {
-                    var page = this.getAttribute('href');
-                    loadHtml(page);
-                });
-            });
-
-            // Xử lý sự kiện click cho dropdown
-            var dropdownLinks = document.querySelectorAll('.dropdown-link');
-            dropdownLinks.forEach(function(link) {
-                link.addEventListener('click', function() {
-                    var page = this.dataset.page;
-                    loadHtml(page);
-                });
-            });
-        });
-
         function loadHtml(page) {
             document.getElementById('trangchu').style.display = 'none';
     document.getElementById('account-user').style.display = 'none';
@@ -139,10 +119,10 @@
              <li class="menu-list-item dropdown">
             <a href="javascript:;" class="menu-link">Chúng tôi</a>
             <div class="dropdown-content">
-                <a href="javascript:;" class="dropdown-link" data-page="gioithieu.html">Giới thiệu</a>
-                <a href="javascript:;" class="dropdown-link" data-page="tintuc.html">Tin tức</a>
-                <a href="javascript:;" class="dropdown-link" data-page="dieukhoan.html">Điều khoản</a>
-                <a href="javascript:;" class="dropdown-link" data-page="lienhe.html">Liên hệ</a>
+             <a href="javascript:;" onclick="loadHtml('gioithieu.html')">Giới thiệu</a>
+              <a href="javascript:;" onclick="loadHtml('tintuc.html')">Tin tức</a>
+              <a href="javascript:;" onclick="loadHtml('dieukhoan.html')">Điều khoản</a>
+              <a href="javascript:;" onclick="loadHtml('lienhe.html')">Liên hệ</a>
             </div>
         </li
             <div class="content"
