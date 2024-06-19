@@ -1,6 +1,5 @@
 
 
-
 // Doi sang dinh dang tien VND
 function vnd(price) {
     return price.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
@@ -964,8 +963,6 @@ function showCategory(category) {
     document.getElementById('trangchu').classList.remove('hide');
     document.getElementById('account-user').classList.remove('open');
     document.getElementById('order-history').classList.remove('open');
-    document.getElementById('content').classList.remove('open'); 
-
     let productSearch = productAll.filter(value => {
         return value.category.toString().toUpperCase().includes(category.toUpperCase());
     })
@@ -987,8 +984,6 @@ function showGioiThieu() {
         document.getElementById('trangchu').classList.add('hide'); // Ẩn nội dung trang chủ
         document.getElementById('account-user').classList.remove('open'); // Đóng menu tài khoản nếu đang mở
         document.getElementById('order-history').classList.remove('open'); // Đóng lịch sử đơn hàng nếu đang mở
-       document.getElementById('content').classList.remove('open'); 
-
 
         // Hiển thị nội dung giới thiệu
         document.getElementById('content').innerHTML = document.getElementById('gioithieu').innerHTML;
@@ -1001,18 +996,4 @@ function showGioiThieu() {
 
     // Cuộn trang lên đầu
     document.getElementById("home-title").scrollIntoView({ behavior: "smooth" });
-}
-function loadHtml(file) {
-     document.getElementById('trangchu').classList.remove('open');
-    document.getElementById('account-user').classList.remove('open');
-     document.getElementById('order-history').classList.remove('open');
-    document.getElementById('content').classList.remove('hide'); 
-    fetch(file)
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('content').innerHTML = data;
-        })
-        .catch(error => console.error('Error loading the HTML file:', error));
-        document.getElementById("home-title").scrollIntoView({ behavior: "smooth" });
-
 }
