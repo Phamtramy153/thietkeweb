@@ -2609,5 +2609,12 @@ iframe {
             border-radius: 12px;
 
         }
-
+ .success-message {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            display: none; /* Initially hide */
+        }
 
