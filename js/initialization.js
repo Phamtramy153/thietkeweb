@@ -67,7 +67,7 @@ function createProduct() {
            id: 8,
             status: 1, 
             title: 'Purple Lily',
-            img: 'assets/img/products/hoalen8.jpg,
+            img: 'assets/img/products/hoalen8.jpg',
             category: 'HOA LEN',
             price: 260000,
             desc: 'Bó hoa ly mix cùng hoa hồng và hoa lưu ly tone tím chưa bao giờ hết hot'
@@ -270,7 +270,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó hồng vàng bằng giấy nhún',
             category: 'HOA GIẤY',
-            img: 'assets/img/products/'hoagiay5.jpg,
+            img: 'assets/img/products/hoagiay5.jpg',
             price: 500000,
             desc: 'Bó hoa hồng vàng bằng giấy nhún là món quà sang trọng và đẳng cấp, tượng trưng cho sự giàu sang, phú quý và may mắn. Từng bông hoa được làm thủ công tỉ mỉ từ giấy nhún cao cấp, mô phỏng sống động hình ảnh hoa hồng thật với cánh hoa mềm mại, màu sắc rực rỡ và hương thơm tinh tế.'
         },
