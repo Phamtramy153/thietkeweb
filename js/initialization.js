@@ -630,7 +630,7 @@ function createProduct() {
             id: 69,
             status: 1, 
             title: 'Hoa gấu BT21',
-            img: 'assets/img/products/hoale9.JPG',
+            img: 'assets/img/products/hoale9.jpg',
             category: 'HOA LẺ',
             price: 70000,
             desc: 'Hoa gấu BT21 là một loại đồ chơi mềm mại được mô phỏng theo các nhân vật hoạt hình thuộc nhóm nhạc BTS. Những chú gấu này được làm từ chất liệu mềm mại, an toàn cho trẻ em và có nhiều kích thước và màu sắc khác nhau.'
