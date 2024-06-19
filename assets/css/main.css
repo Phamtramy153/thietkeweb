@@ -2523,21 +2523,6 @@ margin-top: 30px
 
     color: darkslategrey;
 }
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-}
-
-textarea {
-    resize: vertical;
-}
-
 button[type="submit"] {
     background-color: #F37D6F;
     color: white;
