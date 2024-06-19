@@ -1004,7 +1004,7 @@ function showGioiThieu() {
 function loadHtml(file) {
      document.getElementById('trangchu').classList.remove('open');
     document.getElementById('account-user').classList.remove('open');
-    document.getElementById('order-history').classList.remove('open');
+     document.getElementById('order-history').classList.remove('open');
     document.getElementById('content').classList.remove('hide'); 
     fetch(file)
         .then(response => response.text())
