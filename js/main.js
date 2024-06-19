@@ -539,6 +539,8 @@ function myAccount() {
     document.getElementById('trangchu').classList.add('hide');
     document.getElementById('order-history').classList.remove('open');
     document.getElementById('account-user').classList.add('open');
+   document.getElementById('content').classList.remove('open');
+    
     userInfo();
 }
 
@@ -548,6 +550,8 @@ function orderHistory() {
     document.getElementById('account-user').classList.remove('open');
     document.getElementById('trangchu').classList.add('hide');
     document.getElementById('order-history').classList.add('open');
+    document.getElementById('content').classList.remove('open');
+    
     renderOrderProduct();
 }
 
