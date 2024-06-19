@@ -2378,6 +2378,20 @@ input[type=number] {
     color: #666;
     line-height: 1.6;
 }
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+    text-align: center;
+}
 
 .vision-mission {
     margin-top: 30px;
@@ -2387,15 +2401,15 @@ input[type=number] {
 }
 
 .vision-mission h3 {
-    color: #333;
+    color: #F37D6F;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .vision-mission p {
     text-align: justify;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 2;
 }
 
 /* Styling for Team section */
@@ -2407,7 +2421,7 @@ input[type=number] {
 }
 
 .team h3 {
-    color: #333;
+    color: #F37D6F;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -2438,7 +2452,7 @@ input[type=number] {
 }
 
 .gallery h3 {
-    color: #333;
+    color: #F37D6F;
     text-align: center;
     margin-bottom: 15px;
 }
