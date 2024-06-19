@@ -536,21 +536,20 @@ window.onload = checkAdmin();
 // Chuyển đổi trang chủ và trang thông tin tài khoản
 function myAccount() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.getElementById('content').classList.remove('open');
     document.getElementById('trangchu').classList.add('hide');
     document.getElementById('order-history').classList.remove('open');
     document.getElementById('account-user').classList.add('open');
-   document.getElementById('content').classList.remove('open');
-    
     userInfo();
 }
 
 // Chuyển đổi trang chủ và trang xem lịch sử đặt hàng 
 function orderHistory() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.getElementById('content').classList.remove('open');
     document.getElementById('account-user').classList.remove('open');
     document.getElementById('trangchu').classList.add('hide');
     document.getElementById('order-history').classList.add('open');
-    document.getElementById('content').classList.remove('open');
     
     renderOrderProduct();
 }
@@ -961,11 +960,10 @@ function paginationChange(page, productAll, currentPage) {
 
 // Hiển thị chuyên mục
 function showCategory(category) {
+    document.getElementById('content').classList.remove('open');
     document.getElementById('trangchu').classList.remove('hide');
     document.getElementById('account-user').classList.remove('open');
-    document.getElementById('order-history').classList.remove('open');
-    document.getElementById('content').classList.remove('open');
-    
+    document.getElementById('order-history').classList.remove('open');    
     let productSearch = productAll.filter(value => {
         return value.category.toString().toUpperCase().includes(category.toUpperCase());
     })
