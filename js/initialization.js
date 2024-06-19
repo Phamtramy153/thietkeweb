@@ -662,6 +662,69 @@ function createProduct() {
             price: 80000,
             desc: 'Hoa Gấu Len Kuromi là một loại đồ chơi thủ công được làm từ len, mô phỏng hình ảnh nhân vật hoạt hình Kuromi - chú thỏ đen dễ thương với chiếc nơ đỏ trên đầu.'
         },
+        {
+            id: 73,
+            status: 1, 
+            title: 'Combo hoa tulip hồng và móc khóa gấu',
+            img: 'assets/img/products/combo1.jpg',
+            category: 'COMBO',
+            price: 159000,
+            desc: 'Combo siêu xinh gồm một bó hoa kẽm nhung và ưu đãi móc khóa mua kèm với giá 5K'
+        },
+        {
+            id: 74,
+            status: 1, 
+            title: 'Combo bó hoa len bất kỳ tặng 1 gấu móc len',
+            img: 'assets/img/products/combo2.jpg',
+            category: 'COMBO',
+            price: 159000,
+            desc: 'Combo bó hoa len và gấu móc len là món quà lý tưởng cho những dịp đặc biệt như sinh nhật, ngày lễ tình nhân, kỷ niệm, hay đơn giản chỉ là để thể hiện tình cảm chân thành. Với sự kết hợp giữa hoa và gấu len, món quà này chắc chắn sẽ làm tan chảy trái tim của người nhận, để lại ấn tượng khó phai và mang đến những khoảnh khắc ngọt ngào, đáng nhớ.'
+        },
+        {
+            id: 75,
+            status: 1, 
+            title: 'Combo xinh giá siêu hời gồm bó hoa kẽm nhung bất kỳ và móc khóa gấu',
+            img: 'assets/img/products/combo3.jpg',
+            category: 'COMBO',
+            price: 139000,
+            desc: 'Combo này không chỉ mang đến sự tiện lợi mà còn là một món quà tuyệt vời cho các dịp đặc biệt như sinh nhật, kỷ niệm, hoặc đơn giản chỉ để thể hiện sự quan tâm của bạn dành cho người thân yêu. Với giá cả phải chăng, combo bó hoa kẽm nhung và móc khóa gấu chắc chắn sẽ làm hài lòng cả những khách hàng khó tính nhất.'
+        },
+        {
+            id: 76,
+            status: 1, 
+            title: 'Combo chậu tulip len tím và thiệp đi kèm',
+            img: 'assets/img/products/combo4.jpg',
+            category: 'COMBO',
+            price: 129000,
+            desc: 'Combo chậu tulip len tím và thiệp đi kèm là món quà lý tưởng để gửi đến người thân yêu, bạn bè hoặc đồng nghiệp.'
+        },
+        {
+            id: 77,
+            status: 1, 
+            title: 'Combo chậu hướng dương và thiệp đi kèm',
+            img: 'assets/img/products/combo5.jpg',
+            category: 'COMBO',
+            price: 129000,
+            desc: 'Combo chậu hướng dương và thiệp đi kèm là món quà lý tưởng để gửi đến người thân yêu, bạn bè hoặc đồng nghiệp.'
+        },
+        {
+            id: 78,
+            status: 1, 
+            title: 'Combo chậu hướng dương và gấu bông tốt nghiệp',
+            img: 'assets/img/products/combo6.jpg',
+            category: 'COMBO',
+            price: 200000,
+            desc: 'Chúc mừng thành công với combo hoàn hảo này, gồm một chậu hoa hướng dương rực rỡ và một chú gấu bông tốt nghiệp đáng yêu. Đây sẽ là món quà tuyệt vời để kỷ niệm những thành tựu và đánh dấu những bước ngoặt quan trọng trong cuộc đời.'
+        },
+        {
+            id: 79,
+            status: 1, 
+            title: 'Combo chậu hướng dương, gấu bông tốt nghiệp và ống đựng bút',
+            img: 'assets/img/products/combo7.jpg',
+            category: 'COMBO',
+            price: 230000,
+            desc: 'Chúc mừng cột mốc quan trọng với combo quà tặng đặc biệt này! Kết hợp giữa sự tươi sáng, đáng yêu và tiện dụng, combo bao gồm chậu hoa hướng dương, gấu bông tốt nghiệp và ống đựng bút. Đây là món quà lý tưởng để kỷ niệm và chúc mừng những thành công mới.'
+        },
         ]
         localStorage.setItem('products', JSON.stringify(products));
     }
