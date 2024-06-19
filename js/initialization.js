@@ -45,7 +45,6 @@ function createProduct() {
             price: 220000,
             desc: 'Bó hoa len hồng xoắn buộc nơ siêu xinh. Mẫu hoa cưới.'
         },
-
         {
             d: 6,
             status: 1, 
@@ -53,10 +52,8 @@ function createProduct() {
             img: 'assets/img/products/hoalen6.jpg',
             category: 'HOA LEN',
             price: 220000,
-            desc: 'Bó hoa len xoắn hồng cam'
-      
+            desc: 'Bó hoa len xoắn hồng cam.'
         },
-
         {
              id: 7,
             status: 1, 
@@ -65,10 +62,7 @@ function createProduct() {
             img: 'assets/img/products/hoalen7.jpg',
             price: 260000,
             desc: 'Bó hoa tulip len tone tím mix hoa bi'
-        
-
         },
-
         {
            id: 8,
             status: 1, 
@@ -78,7 +72,6 @@ function createProduct() {
             price: 260000,
             desc: 'Bó hoa ly mix cùng hoa hồng và hoa lưu ly tone tím chưa bao giờ hết hot'
         },
-
         {
             id: 9,
             status: 1, 
@@ -86,8 +79,7 @@ function createProduct() {
             category: "HOA LEN",
             img: 'assets/img/products/hoalen9.jpg',
             price: 245000,
-            desc: 'Hoa len cẩm chướng mix hoa lưu ly tone hồng mới lạ',
-        
+            desc: 'Hoa len cẩm chướng mix hoa lưu ly tone hồng mới lạ'
         },
         {
             id: 10,
@@ -97,7 +89,6 @@ function createProduct() {
             img: 'assets/img/products/hoalen10.jpg',
             price: 250000,
             desc: 'Mùa tốt nghiệp tới không thể thiếu những bó hoa hướng dương siêu xinh'
-            
         },
         {
             id: 11,
@@ -207,7 +198,6 @@ function createProduct() {
             price: 140000,
             desc: 'Với những bông cúc tím đan xen với lá xanh khiến ta mường tượng như được đắm chìm vào một không gian mở nơi dẫn đến khu vườn của những bông cúc tuy nhỏ mà xinh.'
         },
-
         {
             id: 23,
             status: 1, 
@@ -217,7 +207,6 @@ function createProduct() {
             price: 105000,
             desc: 'Kết hợp giữa chú gấu Teddy làm tâm điểm cùng những bông cúc đủ màu, là điều thu hút những tâm hồn yêu cái đẹp của thiếu nữ.'
         },
-
         {
             id: 24,
             status: 1, 
@@ -232,7 +221,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó hồng mix 2 màu trắng hồng tặng người yêu bằng giấy nhún',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay12.png',
+            img: 'assets/img/products/hoagiay12.png',
             price: 300000,
             desc: 'Một bó hoa hồng mix hai màu trắng và hồng, được làm từ giấy nhún, tặng người yêu. Mỗi bông hoa được chế tác tinh xảo với cánh hoa mềm mại, màu trắng tinh khôi hòa quyện cùng màu hồng dịu dàng. Bó hoa thể hiện tình cảm chân thành và lãng mạn, mang thông điệp về sự thuần khiết và tình yêu ngọt ngào. Đây là món quà hoàn hảo để gửi gắm những cảm xúc đặc biệt đến người yêu thương.'
         },
@@ -241,7 +230,7 @@ function createProduct() {
             status: 1, 
             title: 'Hoa tulip bằng giấy nhún hồng',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay1.jpg',
+            img: 'assets/img/products/hoagiay1.jpg',
             price: 45000,
             desc: 'Một bông hoa tulip làm bằng giấy nhún màu hồng mềm mại, cánh hoa xếp lớp tạo nên vẻ đẹp tinh tế và nhẹ nhàng.'
         },
@@ -251,7 +240,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó tulip bằng giấy màu nghệ thuật origami',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay2.jpg',
+            img: 'assets/img/products/hoagiay2.jpg',
             price: 500000,
             desc: 'Một bó hoa tulip làm bằng giấy nghệ thuật origami, với những cánh hoa sắc sảo và tinh tế, từng bông hoa được gấp tỉ mỉ từ giấy màu tươi sáng, tạo nên một tác phẩm nghệ thuật sống động và đầy màu sắc.'
         },
@@ -261,7 +250,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó cúc trắng bằng giấy màu nghệ thuật origami',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay3.jpg',
+            img: 'assets/img/products/hoagiay3.jpg',
             price: 500000,
             desc: 'Một bó hoa cúc trắng được tạo nên từ nghệ thuật origami, từng cánh hoa trắng tinh khôi được gấp tỉ mỉ và chính xác, mang đến vẻ đẹp thanh thoát và trang nhã. Những bông hoa cúc bằng giấy này toát lên sự tinh tế và tươi mới, là biểu tượng của sự thuần khiết và thanh lịch.'
         },
@@ -271,7 +260,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó tulip bằng giấy nhún hồng phớt',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay4.jpg',
+            img: 'assets/img/products/hoagiay4.jpg',
             price: 420000,
             desc: 'Bó hoa tulip hồng phớt bằng giấy nhún là món quà tinh tế và đầy ý nghĩa dành cho những người phụ nữ yêu thích sự nhẹ nhàng và lãng mạn.'
         },
@@ -281,7 +270,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó hồng vàng bằng giấy nhún',
             category: 'HOA GIẤY',
-            img: './assets/img/products/'hoagiay5.jpg,
+            img: 'assets/img/products/'hoagiay5.jpg,
             price: 500000,
             desc: 'Bó hoa hồng vàng bằng giấy nhún là món quà sang trọng và đẳng cấp, tượng trưng cho sự giàu sang, phú quý và may mắn. Từng bông hoa được làm thủ công tỉ mỉ từ giấy nhún cao cấp, mô phỏng sống động hình ảnh hoa hồng thật với cánh hoa mềm mại, màu sắc rực rỡ và hương thơm tinh tế.'
         },
@@ -291,7 +280,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó hồng sặc sỡ mix 4 màu bằng giấy nhún',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay6.jpg',
+            img: 'assets/img/products/hoagiay6.jpg',
             price: 450000,
             desc: 'Bó hoa hồng sặc sỡ mix 4 màu bằng giấy nhún là món quà độc đáo và ấn tượng, mang đến niềm vui và hạnh phúc cho người nhận. Bó hoa được tạo nên từ sự kết hợp hài hòa của 4 màu sắc rực rỡ: đỏ, xanh, vàng và hồng, tượng trưng cho tình yêu nồng nàn, sự nhiệt huyết, niềm vui và sự may mắn.'
         },
@@ -301,7 +290,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó hồng đỏ bằng giấy nhún',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay7.jpg',
+            img: 'assets/img/products/hoagiay7.jpg',
             price: 600000,
             desc: 'Bó hoa hồng đỏ bằng giấy nhún là món quà ý nghĩa và sang trọng, tượng trưng cho tình yêu nồng nàn, sự lãng mạn và lòng chung thủy. Từng bông hoa được làm thủ công tỉ mỉ từ giấy nhún cao cấp, mô phỏng sống động hình ảnh hoa hồng thật với cánh hoa mềm mại, màu đỏ rực rỡ.'
         },
@@ -311,7 +300,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó hồng mix 3 màu bằng giấy nhún',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay8.png',
+            img: 'assets/img/products/hoagiay8.png',
             price: 600000,
             desc: 'Bó hoa hồng mix 3 màu bằng giấy nhún là món quà tinh tế và đầy ý nghĩa, mang đến sự kết hợp hoàn hảo giữa sắc màu rực rỡ và cảm xúc thăng hoa. Từng bông hoa được làm thủ công tỉ mỉ từ giấy nhún cao cấp, mô phỏng sống động hình ảnh hoa hồng thật với cánh hoa mềm mại, màu sắc đa dạng.'
         },
@@ -321,7 +310,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó hồng đỏ bằng giấy nhún giấy bọc đen sang trọng',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay9.png',
+            img: 'assets/img/products/hoagiay9.png',
             price: 290000,
             desc: 'Bó hoa hồng đỏ bằng giấy nhún, giấy bọc đen sang trọng là sự kết hợp hoàn hảo giữa vẻ đẹp kiêu sa của hoa hồng đỏ và sự bí ẩn, sang trọng của giấy bọc đen. Món quà này không chỉ thu hút ánh nhìn bởi vẻ ngoài độc đáo mà còn ẩn chứa thông điệp đầy ý nghĩa về tình yêu nồng nàn.'
         },
@@ -331,7 +320,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó hồng mix 3 màu đỏ hồng trắng bằng giấy nhún',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay10.png',
+            img: 'assets/img/products/hoagiay10.png',
             price: 300000,
             desc: 'Một bó hoa hồng được làm từ giấy nhún, kết hợp ba màu sắc rực rỡ: đỏ, hồng và trắng. Mỗi bông hoa được chế tác tỉ mỉ với các cánh hoa mềm mại, tạo nên sự hài hòa giữa màu sắc và kết cấu. Bó hoa không chỉ đẹp mắt mà còn toát lên vẻ lãng mạn và tinh tế, là món quà hoàn hảo để biểu đạt tình cảm và sự quan tâm.'
         },
@@ -341,7 +330,7 @@ function createProduct() {
             status: 1, 
             title: 'Bó hồng vàng sang trọng bằng giấy nhún',
             category: 'HOA GIẤY',
-            img: './assets/img/products/hoagiay11.png',
+            img: 'assets/img/products/hoagiay11.png',
             price: 280000,
             desc: 'Một bó hoa hồng vàng sang trọng, được chế tác tỉ mỉ từ giấy nhún. Mỗi cánh hoa vàng rực rỡ được tạo hình mềm mại và tự nhiên, tạo nên vẻ đẹp lộng lẫy và quyến rũ. Bó hoa không chỉ mang đến cảm giác ấm áp và tươi sáng, mà còn toát lên sự quý phái và đẳng cấp, là món quà hoàn hảo cho những dịp đặc biệt và trang trọng.'
         },
@@ -564,6 +553,114 @@ function createProduct() {
             category: 'HOA SÁP',
             price: 280000,
             desc: 'Bó hoa sáp thơm tone hồng kết hợp cùng vải voan làm quà sinh nhật'
+        },
+        {
+            id: 61,
+            status: 1, 
+            title: 'Hoa hồng lẻ trong bong bóng (hồng)',
+            img: 'assets/img/products/hoale1.png',
+            category: 'HOA LẺ',
+            price: 80000,
+            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+        },
+        {
+            id: 62,
+            status: 1, 
+            title: 'Hoa hồng lẻ trong bong bóng (xanh)',
+            img: 'assets/img/products/hoale2.png',
+            category: 'HOA LẺ',
+            price: 80000,
+            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+        },
+        {
+            id: 63,
+            status: 1, 
+            title: 'Hướng dương kẽm nhung lẻ',
+            img: 'assets/img/products/hoale3.jpg',
+            category: 'HOA LẺ',
+            price: 30000,
+            desc: 'Hướng Dương Kẽm Nhung Lẻ là sự kết hợp hoàn hảo giữa vẻ đẹp tự nhiên và độ bền bỉ của chất liệu cao cấp. Đây không chỉ là món quà tuyệt vời mà còn là lựa chọn lý tưởng để trang trí cho không gian sống thêm phần rực rỡ và ấm áp.'
+        },
+        {
+            id: 64,
+            status: 1, 
+            title: 'Hoa cúc kẽm nhung lẻ',
+            img: 'assets/img/products/hoale4.jpg',
+            category: 'HOA LẺ',
+            price: 30000,
+            desc: 'Hoa cúc kẽm nhung lẻ là một sản phẩm thủ công độc đáo, được làm từ những sợi kẽm nhung mềm mại, mô phỏng hình ảnh hoa cúc một cách sống động và tinh tế. Mỗi bông hoa được tạo tác tỉ mỉ, mang đến vẻ đẹp bình dị và mộc mạc, tô điểm cho không gian thêm tươi sáng và sinh động.'
+        },
+        {
+            id: 65,
+            status: 1, 
+            title: 'Hoa hồng lẻ trong bong bóng',
+            img: 'assets/img/products/hoale1',
+            category: 'HOA LẺ',
+            price: 80000,
+            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+        },
+        {
+            id: 66,
+            status: 1, 
+            title: 'Hoa hồng lẻ trong bong bóng',
+            img: 'assets/img/products/hoale1',
+            category: 'HOA LẺ',
+            price: 80000,
+            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+        },
+        {
+            id: 67,
+            status: 1, 
+            title: 'Hoa hồng lẻ trong bong bóng',
+            img: 'assets/img/products/hoale1',
+            category: 'HOA LẺ',
+            price: 80000,
+            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+        },
+        {
+            id: 68,
+            status: 1, 
+            title: 'Hoa hồng lẻ trong bong bóng',
+            img: 'assets/img/products/hoale1',
+            category: 'HOA LẺ',
+            price: 80000,
+            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+        },
+        {
+            id: 69,
+            status: 1, 
+            title: 'Hoa hồng lẻ trong bong bóng',
+            img: 'assets/img/products/hoale1',
+            category: 'HOA LẺ',
+            price: 80000,
+            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+        },
+        {
+            id: 70,
+            status: 1, 
+            title: 'Hoa hồng lẻ trong bong bóng',
+            img: 'assets/img/products/hoale1',
+            category: 'HOA LẺ',
+            price: 80000,
+            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+        },
+        {
+            id: 71,
+            status: 1, 
+            title: 'Hoa hồng lẻ trong bong bóng',
+            img: 'assets/img/products/hoale1',
+            category: 'HOA LẺ',
+            price: 80000,
+            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+        },
+        {
+            id: 72,
+            status: 1, 
+            title: 'Hoa hồng lẻ trong bong bóng',
+            img: 'assets/img/products/hoale1',
+            category: 'HOA LẺ',
+            price: 80000,
+            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
         },
         ]
         localStorage.setItem('products', JSON.stringify(products));
