@@ -1,4 +1,4 @@
-//Khoi tao danh sach san pham
+//Khoi tao danh sach san pha
 function createProduct() {
     if (localStorage.getItem('products') == null) {
         let products = [{
