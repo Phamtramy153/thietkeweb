@@ -12,15 +12,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
      <script>
-        function loadHtml(page) {
-            document.getElementById('trangchu').style.display = 'none';
-    document.getElementById('account-user').style.display = 'none';
-    document.getElementById('order-history').style.display = 'none';
-    // Hiện phần tử chứa nội dung
-    document.getElementById('content').style.display = 'block';
+        document.addEventListener('DOMContentLoaded', function() {
+            // Xử lý sự kiện click cho menu-link
+            var menuLinks = document.querySelectorAll('.menu-link');
+            menuLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    var page = this.getAttribute('href');
+                    loadHtml(page);
+                });
+            });
 
-    // Sử dụng fetch để tải nội dung từ URL được cung cấp
-  fetch(page)
+            // Xử lý sự kiện click cho dropdown
+            var dropdownLinks = document.querySelectorAll('.dropdown-link');
+            dropdownLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    var page = this.dataset.page;
+                    loadHtml(page);
+                });
+            });
+        });
+
+        function loadHtml(page) {
+            fetch(page)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok ' + response.statusText);
@@ -29,22 +42,10 @@
                 })
                 .then(data => {
                     document.getElementById('content').innerHTML = data;
-                    activateNavigationLinks(); // Kích hoạt lại các nút điều hướng sau khi tải xong nội dung
                 })
                 .catch(error => {
                     document.getElementById('content').innerHTML = 'Không thể tải nội dung: ' + error.message;
                 });
-        }
-
-        function activateNavigationLinks() {
-            // Kích hoạt lại các liên kết điều hướng
-            var links = document.querySelectorAll('.menu-link');
-            links.forEach(link => {
-                link.addEventListener('click', function() {
-                    var page = this.dataset.page;
-                    loadHtml(page);
-                });
-            });
         }
         </script>
 <body>
@@ -133,10 +134,10 @@
              <li class="menu-list-item dropdown">
             <a href="javascript:;" class="menu-link">Chúng tôi</a>
             <div class="dropdown-content">
-                <li><a href="javascript:;" class="menu-link" data-page="gioithieu.html">Giới thiệu</a></li>
-                <li><a href="javascript:;" class="menu-link" data-page="tintuc.html">Tin tức</a></li>
-                <li><a href="javascript:;" class="menu-link" data-page="dieukhoan.html">Điều khoản</a></li>
-                <li><a href="javascript:;" class="menu-link" data-page="lienhe.html">Liên hệ</a></li>
+                <a href="javascript:;" class="dropdown-link" data-page="gioithieu.html">Giới thiệu</a>
+                <a href="javascript:;" class="dropdown-link" data-page="tintuc.html">Tin tức</a>
+                <a href="javascript:;" class="dropdown-link" data-page="dieukhoan.html">Điều khoản</a>
+                <a href="javascript:;" class="dropdown-link" data-page="lienhe.html">Liên hệ</a>
             </div>
         </li
             <div class="content"
@@ -759,10 +760,6 @@
         </main>
     </div>
     <div id="toast"></div>
-     <script>
-        // Kích hoạt sự kiện click cho các liên kết ngay khi trang được tải lần đầu
-        activateNavigationLinks();
-    </script>
     <script src="./js/initialization.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/checkout.js"></script>
