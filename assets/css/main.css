@@ -2505,4 +2505,39 @@ margin-top: 30px
     display: block;
 }
 
+/*dieukhoan*/
+/* Thiết lập màu sắc cho các tiêu đề */
+        h1 {
+            color: #F37D6F;
+            font-size: 1.5em; 
+            text-align: center; /* Căn giữa tiêu đề */
+            margin-bottom: 0.5em; /* Khoảng cách dưới cho tiêu đề h1 */
+            margin-top: 0.5em; /* Khoảng cách từ tiêu đề đến nội dung */
+        }
+        h2 {
+            color: #F9A18F; 
+            font-size: 1.2em; /* Kích thước chữ cho h2 */
+            margin-bottom: 1em; /* Khoảng cách dưới cho tiêu đề h2 */
+        }
+
+        /* Tạo dấu chấm trước các mục trong danh sách */
+        li {
+            position: relative;
+            padding-left: 20px; /* Tạo khoảng trống cho dấu chấm */
+            margin-bottom: 1em; /* Khoảng cách dưới cho các mục trong danh sách */
+            font-size: 0.9em; 
+        }
+        li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #333;
+        }
+
+        /* Tăng khoảng cách giữa các đoạn văn và làm cho chữ nhỏ hơn */
+        p {
+            margin-bottom: 1.5em; 
+            font-size: 0.9em; 
+        }
+
 
