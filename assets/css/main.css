@@ -2383,30 +2383,32 @@ input[type=number] {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    padding: 20px;
-    background-color: #f5f5f5;
+    padding: 30px;
+    background-color: #F4968A;
     border-radius: 8px;
 }
 
 .vision, .mission {
-    width: 48%;
+    width: 42%;
 }
 
 .vision h3, .mission h3 {
     text-align: center;
     margin-bottom: 10px;
+    color: #FFEAED;
 }
 
 .vision p, .mission p {
     text-align: justify;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.6;
+    color: white;
 }
 /* Styling for Team section */
 .team {
     margin-top: 30px;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: ;
     border-radius: 8px;
 }
 
@@ -2424,6 +2426,8 @@ input[type=number] {
 
 .employee {
     text-align: center;
+    line-height: 1.6;
+    color: darkslategray
 }
 
 .employee img {
@@ -2437,12 +2441,12 @@ input[type=number] {
 .gallery {
     margin-top: 30px;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #F4968A;
     border-radius: 8px;
 }
 
 .gallery h3 {
-    color: #F37D6F;
+    color: white;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -2464,6 +2468,7 @@ text-align: center;
 color: #F37D6F;
 font-size: 30px;
 margin-bottom: 30px;
+margin-top: 30px
 }
 .intro p
 {
@@ -2471,5 +2476,7 @@ margin-bottom: 30px;
     text-align: justify;
     line-height: 2;
 }
+
+
 
 
