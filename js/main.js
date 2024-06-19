@@ -536,7 +536,8 @@ window.onload = checkAdmin();
 // Chuyển đổi trang chủ và trang thông tin tài khoản
 function myAccount() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    document.getElementById('content').classList.remove('open');
+    document.getElementById('content').classList.remove('open');  // Xóa lớp 'open' nếu có
+    document.getElementById('content').classList.add('hide');  // Thêm l
     document.getElementById('trangchu').classList.add('hide');
     document.getElementById('order-history').classList.remove('open');
     document.getElementById('account-user').classList.add('open');
