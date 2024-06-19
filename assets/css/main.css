@@ -2560,18 +2560,7 @@ margin-top: 30px
             margin-top: 40px;
             margin-right:20px;
         }
-/*dieukhoan*/
-.custom-list li {
-    position: relative;
-    margin-bottom: 10px;
-    padding-left: 20px;
-}
 
-.custom-list li:before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #000;
 }
 
 
