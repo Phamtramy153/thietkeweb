@@ -540,8 +540,6 @@ function myAccount() {
     document.getElementById('trangchu').classList.add('hide');
     document.getElementById('order-history').classList.remove('open');
     document.getElementById('account-user').classList.add('open');
-    document.querySelectorAll('.customer-reviews').forEach(function(element) {
-    element.classList.remove('open');
 });
 
     userInfo();
