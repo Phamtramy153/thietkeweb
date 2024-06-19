@@ -84,7 +84,7 @@ function detailProduct(index) {
         </div>
         <div class="modal-footer-control">
             <button class="button-dathangngay" data-product="${infoProduct.id}">Đặt hàng ngay</button>
-            <button class="button-dat" id="add-cart" onclick="animationCart()"><i class="fa-light fa-basket-shopping"></i></button>
+            <button class="button-dat" id="add-cart" onclick="animationCart()"><i class="fa-solid fa-cart-plus"></i></button>
         </div>
     </div>`;
     document.querySelector('#product-detail-content').innerHTML = modalHtml;
@@ -829,7 +829,7 @@ function renderProducts(showProduct) {
     let productHtml = '';
     if(showProduct.length == 0) {
         document.getElementById("home-title").style.display = "none";
-        productHtml = `<div class="no-result"><div class="no-result-h">Tìm kiếm không có kết quả</div><div class="no-result-p">Xin lỗi, chúng tôi không thể tìm được kết quả hợp với tìm kiếm của bạn</div><div class="no-result-i"><i class="fa-light fa-face-sad-cry"></i></div></div>`;
+        productHtml = `<div class="no-result"><div class="no-result-h">Tìm kiếm không có kết quả</div><div class="no-result-p">Xin lỗi, chúng tôi không thể tìm được kết quả hợp với tìm kiếm của bạn</div><div class="no-result-i"><i class="fa-regular fa-face-sad-tear"></i></div></div>`;
     } else {
         document.getElementById("home-title").style.display = "block";
         showProduct.forEach((product) => {
