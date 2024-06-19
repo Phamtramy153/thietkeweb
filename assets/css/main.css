@@ -2483,8 +2483,11 @@ margin-top: 30px
     
 }
 
-
-
-
+#content.hide{
+    display: none;
+}
+#content.open {
+        display: flex !important;
+}
 
 
