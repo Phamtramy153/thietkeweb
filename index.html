@@ -33,6 +33,11 @@
         });
 
         function loadHtml(page) {
+            document.getElementById('trangchu').style.display = 'none';
+    document.getElementById('account-user').style.display = 'none';
+    document.getElementById('order-history').style.display = 'none';
+    // Hiện phần tử chứa nội dung
+    document.getElementById('content').style.display = 'block';
             fetch(page)
                 .then(response => {
                     if (!response.ok) {
