@@ -2484,9 +2484,12 @@ margin-top: 30px
     margin-left: 30px;
     
 }
-
+.vision:hover, .mission:hover {
+ transform: scale(1.3); /* Scale up on hover */
+    }
 .vision {
             animation: slideInFromLeft 2s forwards; /* Animation for vision */
+
         }
 
         .mission {
@@ -2513,9 +2516,6 @@ margin-top: 30px
                 transform: translateX(0);
                 opacity: 1;
             }
-        }
-        .vision:hover, .mission:hover {
-            transform: scale(1.3); /* Scale up on hover */
         }
 #content.hide{
     display: none;
