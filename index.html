@@ -13,25 +13,33 @@
 </head>
      <script>
         function loadHtml(page) {
-            document.getElementById('trangchu').style.display = 'none';
-    document.getElementById('account-user').style.display = 'none';
-    document.getElementById('order-history').style.display = 'none';
-    // Hiện phần tử chứa nội dung
-    document.getElementById('content').style.display = 'block';
-            fetch(page)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
-                    }
-                    return response.text();
-                })
-                .then(data => {
-                    document.getElementById('content').innerHTML = data;
-                })
-                .catch(error => {
-                    document.getElementById('content').innerHTML = 'Không thể tải nội dung: ' + error.message;
-                });
-        }
+    // Cuộn lên đầu trang một cách mượt
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    // Ẩn các phần khác nếu cần
+    document.getElementById('trangchu').classList.add('hide');
+    document.getElementById('order-history').classList.remove('open');
+    document.getElementById('account-user').classList.remove('open');
+    document.getElementById('content').classList.remove('hide');
+
+    // Sử dụng fetch để tải nội dung từ tệp HTML
+    fetch(page)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.text();
+        })
+        .then(data => {
+            // Đặt nội dung HTML vào phần 'content'
+            document.getElementById('content').innerHTML = data;
+        })
+        .catch(error => {
+            // Xử lý lỗi nếu có
+            document.getElementById('content').innerHTML = 'Không thể tải nội dung: ' + error.message;
+        });
+}
+
         </script>
 <body>
     <header>
