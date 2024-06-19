@@ -593,74 +593,74 @@ function createProduct() {
         {
             id: 65,
             status: 1, 
-            title: 'Hoa hồng lẻ trong bong bóng',
-            img: 'assets/img/products/hoale1',
+            title: 'Hoa ly kẽm nhung lẻ giấy hồng',
+            img: 'assets/img/products/hoale5.jpg',
             category: 'HOA LẺ',
-            price: 80000,
-            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+            price: 40000,
+            desc: 'Hoa ly kẽm nhung lẻ là sản phẩm thủ công độc đáo, được làm từ những sợi kẽm nhung mềm mại, mô phỏng hình ảnh hoa hồng ly một cách sống động và tinh tế. Mỗi bông hoa được tạo tác tỉ mỉ, mang đến vẻ đẹp kiêu sa và sang trọng.'
         },
         {
             id: 66,
             status: 1, 
-            title: 'Hoa hồng lẻ trong bong bóng',
-            img: 'assets/img/products/hoale1',
+            title: 'Hoa ly kẽm nhung lẻ giấy cầu vồng',
+            img: 'assets/img/products/hoale6.jpg',
             category: 'HOA LẺ',
-            price: 80000,
-            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+            price: 40000,
+            desc: 'Hoa Ly Kẽm Nhung Lẻ Giấy Cầu Vồng là sản phẩm thủ công độc đáo, kết hợp giữa vẻ đẹp tinh tế của hoa ly kẽm nhung và sự rực rỡ của giấy cầu vồng, mang đến điểm nhấn ấn tượng cho mọi không gian.'
         },
         {
             id: 67,
             status: 1, 
-            title: 'Hoa hồng lẻ trong bong bóng',
-            img: 'assets/img/products/hoale1',
+            title: 'Hoa ly kẽm nhung lẻ giấy trắng',
+            img: 'assets/img/products/hoale7.jpg',
             category: 'HOA LẺ',
-            price: 80000,
-            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+            price: 40000,
+            desc: 'Hoa Ly Kẽm Nhung Lẻ Giấy Trắng là sản phẩm thủ công độc đáo, kết hợp giữa vẻ đẹp tinh tế của hoa ly kẽm nhung và sự thanh tao của giấy trắng, mang đến nét đẹp nhẹ nhàng và thanh lịch cho mọi không gian.'
         },
         {
             id: 68,
             status: 1, 
-            title: 'Hoa hồng lẻ trong bong bóng',
-            img: 'assets/img/products/hoale1',
+            title: 'Hoa cúc vàng kẽm nhung lẻ giấy tím',
+            img: 'assets/img/products/hoale8.jpg',
             category: 'HOA LẺ',
-            price: 80000,
-            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+            price: 40000,
+            desc: 'Mang đến sự tươi sáng và nổi bật, sản phẩm "Hoa Cúc Vàng Kẽm Nhung Lẻ Giấy Tím" là món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
         },
         {
             id: 69,
             status: 1, 
-            title: 'Hoa hồng lẻ trong bong bóng',
-            img: 'assets/img/products/hoale1',
+            title: 'Hoa gấu BT21',
+            img: 'assets/img/products/hoale9.JPG',
             category: 'HOA LẺ',
-            price: 80000,
-            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+            price: 70000,
+            desc: 'Hoa gấu BT21 là một loại đồ chơi mềm mại được mô phỏng theo các nhân vật hoạt hình thuộc nhóm nhạc BTS. Những chú gấu này được làm từ chất liệu mềm mại, an toàn cho trẻ em và có nhiều kích thước và màu sắc khác nhau.'
         },
         {
             id: 70,
             status: 1, 
-            title: 'Hoa hồng lẻ trong bong bóng',
-            img: 'assets/img/products/hoale1',
+            title: 'Hoa gấu LINE FRIENDS',
+            img: 'assets/img/products/hoale10.jpg',
             category: 'HOA LẺ',
             price: 80000,
-            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+            desc: 'Hoa gấu LINE FRIENDS là một loại đồ chơi mềm mại được mô phỏng theo các nhân vật hoạt hình thuộc ứng dụng nhắn tin LINE. Những chú gấu này được làm từ chất liệu mềm mại, an toàn cho trẻ em và có nhiều kích thước và màu sắc khác nhau.'
         },
         {
             id: 71,
             status: 1, 
-            title: 'Hoa hồng lẻ trong bong bóng',
-            img: 'assets/img/products/hoale1',
+            title: 'Hoa thỏ len trắng lẻ',
+            img: 'assets/img/products/hoale11.jpg',
             category: 'HOA LẺ',
-            price: 80000,
-            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+            price: 50000,
+            desc: 'Hoa thỏ len trắng lẻ là sản phẩm thủ công độc đáo, được đan móc tỉ mỉ từ sợi len trắng mềm mại, mô phỏng hình ảnh chú thỏ đáng yêu một cách sống động và tinh tế. Mỗi bông hoa thỏ len trắng lẻ mang đến vẻ đẹp mộc mạc, giản dị nhưng không kém phần tinh tế, tô điểm cho không gian thêm ấm áp và đáng yêu.'
         },
         {
             id: 72,
             status: 1, 
-            title: 'Hoa hồng lẻ trong bong bóng',
-            img: 'assets/img/products/hoale1',
+            title: 'Hoa gấu len KUROMI',
+            img: 'assets/img/products/hoale12.jpg',
             category: 'HOA LẺ',
             price: 80000,
-            desc: 'Khám phá vẻ đẹp tinh tế và sang trọng với sản phẩm "Hoa Hồng Lẻ Trong Bong Bóng". Đây là một món quà độc đáo và hoàn hảo để thể hiện tình cảm đặc biệt của bạn.'
+            desc: 'Hoa Gấu Len Kuromi là một loại đồ chơi thủ công được làm từ len, mô phỏng hình ảnh nhân vật hoạt hình Kuromi - chú thỏ đen dễ thương với chiếc nơ đỏ trên đầu.'
         },
         ]
         localStorage.setItem('products', JSON.stringify(products));
