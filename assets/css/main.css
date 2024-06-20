@@ -2341,14 +2341,16 @@ input[type=number] {
 }
 
 .review-item {
-    width: calc(30% - 40px); /* 33.33% width with margin in between */
+    width: calc(33% - 40px); /* 33.33% width with margin in between */
     background-color: #fff;
     padding: 40px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     transition: transform 0.3s ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .review-item:hover {
@@ -2365,20 +2367,21 @@ input[type=number] {
 
 .review-content {
     flex: 1;
+    text-align:justify
 }
 
 .customer-name {
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
     color: #F37D6F;
 }
 
 .customer-review {
     font-size: 14px;
     color: #666;
-    line-height: 1.6;
+    line-height: 1.5;
 }
-
 .vision-mission {
     display: flex;
     justify-content: space-between;
