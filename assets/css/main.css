@@ -2438,11 +2438,15 @@ input[type=number] {
     color: darkslategray
 }
 
+.employee img:hover{
+    transform: scale(1.2);
+}
 .employee img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 10px;
+    transition: transform 0.5s ease;
 }
 
 /* Styling for Gallery section */
@@ -2463,12 +2467,13 @@ input[type=number] {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin-bottom: 20px;
 }
 
 .images img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 .intro h2
 {
