@@ -2796,6 +2796,9 @@ object-fit: cover; /* Đảm bảo ảnh vừa khít vào khung mà không bị 
 .post-container .post-content p:not(:last-child) {
     margin-bottom: 10px;
 }
+.post-content-body p {
+    text-align: justify;
+}
 .post-container .productImage {
     display: flex;
     align-items: center;
