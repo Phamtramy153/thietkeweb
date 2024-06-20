@@ -613,7 +613,7 @@
     <div class="checkout-page">
         <div class="checkout-header">
             <div class="checkout-return">
-                <button onclick="closecheckout()"><i class="fa-bold fa-chevron-left"></i></button>
+                <button onclick="closecheckout()"><i class="fa-solid fa-arrow-left"></i></button>
             </div>
             <h2 class="checkout-title">Thanh toán</h2>
         </div>
@@ -628,14 +628,14 @@
                             <p class="checkout-content-label">Hình thức giao nhận</p>
                             <div class="checkout-type-order">
                                 <button class="type-order-btn active" id="giaotannoi">
-                                    <i class="fa-duotone fa-moped"
+                                    <i class="fa-solid fa-truck"
                                         style="--fa-secondary-opacity: 1.0; --fa-primary-color: dodgerblue; --fa-secondary-color: #ffb100;"></i>
-                                    Giao tận nơi
+                                    Tự đến lấy
                                 </button>
                                 <button class="type-order-btn" id="tudenlay">
-                                    <i class="fa-duotone fa-box-heart"
+                                    <i class="fa-brands fa-creative-commons-by"
                                         style="--fa-secondary-opacity: 1.0; --fa-primary-color: pink; --fa-secondary-color: palevioletred;"></i>
-                                    Tự đến lấy
+                                    Giao tận nơi
                                 </button>
                             </div>
                         </div>
@@ -645,51 +645,21 @@
                             </div>
                         </div>
                         <div class="content-group chk-ship" id="giaotannoi-group">
-                            <p class="checkout-content-label">Thời gian giao hàng</p>
+                            <p class="checkout-content-label">Chọn đơn vị vận chuyển</p>
                             <div class="delivery-time">
                                 <input type="radio" name="giaongay" id="giaongay" class="radio">
-                                <label for="giaongay">Giao ngay khi xong</label>
+                                <label for="giaongay">Giao hàng tiết kiệm</label>
                             </div>
                             <div class="delivery-time">
                                 <input type="radio" name="giaongay" id="deliverytime" class="radio">
-                                <label for="deliverytime">Giao vào giờ</label>
-                                <select class="choise-time">
-                                    <option data-hours="08" value="08:00" selected="selected">08:00 - 09:00</option>
-
-                                    <option data-hours="09" value="09:00">09:00 - 10:00</option>
-
-                                    <option data-hours="10" value="10:00"> 10:00 - 11:00</option>
-
-                                    <option data-hours="11" value="11:00"> 11:00 - 12:00</option>
-
-                                    <option data-hours="12" value="12:00"> 12:00 - 13:00</option>
-
-                                    <option data-hours="13" value="13:00"> 13:00 - 14:00</option>
-
-                                    <option data-hours="14" value="14:00"> 14:00 - 15:00</option>
-
-                                    <option data-hours="15" value="15:00"> 15:00 - 16:00</option>
-
-                                    <option data-hours="16" value="16:00"> 16:00 - 17:00</option>
-
-                                    <option data-hours="17" value="17:00"> 17:00 - 18:00</option>
-
-                                    <option data-hours="18" value="18:00"> 18:00 - 19:00</option>
-
-                                    <option data-hours="19" value="19:00"> 19:00 - 20:00</option>
-
-                                    <option data-hours="20" value="20:00"> 20:00 - 21:00</option>
-
-                                    <option data-hours="21" value="21:00"> 21:00 - 22:00</option>
-
-                                </select>
+                                <label for="deliverytime">Giao hàng nhanh</label>
                             </div>
                         </div>
                         <div class="content-group" id="tudenlay-group">
                             <p class="checkout-content-label">Lấy hàng tại chi nhánh</p>
                             <div class="delivery-time">
                                 <input type="radio" name="chinhanh" id="chinhanh-1" class="radio">
-                                <label for="chinhanh-1">12 Chùa Bộc, Quang Trung, Đống Đa, Hà Nội</label>
+                                <label for="chinhanh-1">12 Chùa Bộc, Quang Trung, Đống Đa</label>
                             </div>
                             <div class="delivery-time">
                                 <input type="radio" name="chinhanh" id="chinhanh-2" class="radio">
