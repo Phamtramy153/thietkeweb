@@ -2435,7 +2435,7 @@ input[type=number] {
 .employee {
     text-align: center;
     line-height: 1.6;
-    color: darkslategray
+    color: darkslategray;
 }
 
 .employee img:hover{
@@ -2453,7 +2453,6 @@ input[type=number] {
 .gallery {
     margin-top: 30px;
     padding: 20px;
-    background-color: #F4968A;
     border-radius: 8px;
 }
 
@@ -2474,7 +2473,12 @@ input[type=number] {
     max-width: 100%;
     height: auto;
     border-radius: 20px;
+    transition: transform 0.5s ease;
 }
+
+.images img:hover {
+    transform: scale(1.2);}
+
 .intro h2
 {
 text-align: center;
