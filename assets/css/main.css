@@ -2742,6 +2742,9 @@ height: 200px; /* Chiều cao cố định */
 object-fit: cover; /* Đảm bảo ảnh vừa khít vào khung mà không bị méo */
 }
 
+
+
+
 /* post-container */
 
 
@@ -2799,6 +2802,8 @@ object-fit: cover; /* Đảm bảo ảnh vừa khít vào khung mà không bị 
     background-position: center !important;
     background-size: cover !important;
 }
+
+
 
 
 
