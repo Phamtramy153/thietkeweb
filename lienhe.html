@@ -28,7 +28,7 @@
                     <textarea id="message" name="message" rows="5"></textarea>
                 </div>
                 <div class="form-group">
-                    <a href="javascript:;" onclick="loadHtml('lienhe.html')"><button type="submit">Gửi thông tin</button></a>
+                    <button type="submit">Gửi thông tin</button>
                 </div>
                  <div class="success-message" id="success-message">
                 Thông tin của bạn đã được gửi thành công!
@@ -52,7 +52,7 @@
         </div>
      <script>
         // JavaScript here
-        document.getElementById('contact-form').addEventListener('submit', function(event) {
+        document.getElementById('form-container').addEventListener('submit', function(event) {
             event.preventDefault(); // Prevent default form submission
 
             // Display success message
@@ -61,7 +61,7 @@
             // Clear form fields after 3 seconds
             setTimeout(function() {
                 document.getElementById('success-message').style.display = 'none';
-                document.getElementById('contact-form').reset();
+                document.getElementById('form-container').reset();
             }, 3000);
         });
     </script>
