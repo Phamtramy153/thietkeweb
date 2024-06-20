@@ -2708,15 +2708,42 @@ iframe {
 
 
 
+/* Styling for TUS section */
 
-/* post-container */
-
+.breadcrumb-item a {
+    color: #363434; /* Đổi màu chữ breadcrumb */
+}
 .tus {
     margin: 30px 0;
     padding: 20px;
     background-color: #F4968A;
     border-radius: 8px;
 }
+
+.tus h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.imagess {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.imagess img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.tus-img {
+width: 200px; /* Chiều rộng cố định */
+height: 200px; /* Chiều cao cố định */
+object-fit: cover; /* Đảm bảo ảnh vừa khít vào khung mà không bị méo */
+}
+
+/* post-container */
+
 
 .post-container .post-header {
     width: 100%;
@@ -2772,6 +2799,7 @@ iframe {
     background-position: center !important;
     background-size: cover !important;
 }
+
 
 
 
