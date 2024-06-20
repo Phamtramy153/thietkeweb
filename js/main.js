@@ -500,8 +500,8 @@ function kiemtradangnhap() {
     if (currentUser != null) {
         let user = JSON.parse(currentUser);
         document.querySelector('.auth-container').innerHTML = `<span class="text-dndk">Tài khoản</span>
-            <span class="text-tk">${user.fullname} <i class="fa-solid fa-user"</span>`
-        document.querySelector('.header-middle-right-menu').innerHTML = `<li><a href="javascript:;" onclick="myAccount()"><i class="fa-light fa-circle-user"></i> Tài khoản của tôi</a></li>
+            <span class="text-tk">${user.fullname} <i class="fa-solid fa-sort-down"</span>`
+        document.querySelector('.header-middle-right-menu').innerHTML = `<li><a href="javascript:;" onclick="myAccount()"><i class="fa-solid fa-user"></i> Tài khoản của tôi</a></li>
             <li><a href="javascript:;" onclick="orderHistory()"><i class="fa-solid fa-bag-shopping"></i> Đơn hàng đã mua</a></li>
             <li class="border"><a id="logout" href="javascript:;"><i class="fa-solid fa-right-from-bracket"></i> Thoát tài khoản</a></li>`
         document.querySelector('#logout').addEventListener('click',logOut)
