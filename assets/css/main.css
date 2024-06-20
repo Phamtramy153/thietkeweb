@@ -2709,6 +2709,71 @@ iframe {
 
 
 
+/* post-container */
+
+.tus {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #F4968A;
+    border-radius: 8px;
+}
+
+.post-container .post-header {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 2rem;
+}
+.post-container .post-header h1 {
+    color: #F37D6F;
+}
+.post-container .post-header .breadcrumb li {
+    display: inline-block;
+}
+.post-container .post-header .breadcrumb li:first-child {
+    position: relative;
+    padding-right: 10px;
+}
+.post-container .post-header .breadcrumb li:first-child::after {
+    content: " / ";
+    right: 0;
+    position: absolute;
+    display: inline-block;
+}
+
+.post-container .text-center {
+    text-align: center;
+}
+.post-container .post-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #F37D6F;
+}
+.post-container .post-time {
+    font: 1.5rem;
+}
+
+.post-container .post-content p {
+    line-height: 1.5;
+}
+.post-container .post-content p:not(:last-child) {
+    margin-bottom: 10px;
+}
+.post-container .productImage {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.post-container .productImage .imageItem {
+    width: 33.3333%;
+    height: 340px;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+
 
 
 
