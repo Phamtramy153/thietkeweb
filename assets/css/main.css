@@ -2660,11 +2660,14 @@ iframe {
     align-items: center;
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.2s;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .bloglist:hover {
@@ -2676,10 +2679,14 @@ iframe {
     align-items: center;
     text-decoration: none;
     color: inherit;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-block: 5px;
+    
 }
 
 .flower-link img {
-    border-radius: 10px;
+    border-radius: 20px;
     margin-right: 20px;
 }
 
@@ -2690,7 +2697,7 @@ iframe {
 .text-container h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #333;
+    color: #F37D6F;
 }
 
 .text-container p {
@@ -2698,6 +2705,11 @@ iframe {
     font-size: 1em;
     line-height: 1.6;
 }
+
+
+
+
+
 
 
 
