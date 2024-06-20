@@ -2808,6 +2808,10 @@ object-fit: cover; /* Đảm bảo ảnh vừa khít vào khung mà không bị 
     background-position: center !important;
     background-size: cover !important;
 }
+.imageItem {
+    margin-right: 10px; /* khoảng cách giữa các ảnh */
+    border-radius: 15px; 
+}
 
 
 
