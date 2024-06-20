@@ -58,24 +58,13 @@
         </div>
 
     </div>
-    <script>
-        // Khởi tạo ScrollReveal
-        ScrollReveal().reveal('.vision', {
-            origin: 'left',
-            distance: '20px',
-            duration: 800,
-            delay: 200,
-            easing: 'ease-in-out',
-            reset: true
-        });
-
-        ScrollReveal().reveal('.mission', {
-            origin: 'right',
-            distance: '20px',
-            duration: 800,
-            delay: 200,
-            easing: 'ease-in-out',
-            reset: true
+           <script>
+        // Thêm lớp 'zoom-in' vào logo sau khi trang đã load
+        window.addEventListener('load', function() {
+            var logo = document.querySelector('.logogo');
+            if (logo) {
+                logo.classList.add('zoom-in');
+            }
         });
     </script>
 </body>
