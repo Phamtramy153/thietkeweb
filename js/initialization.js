@@ -33,7 +33,7 @@ function createProduct() {
             status: 1, title: 'Bó hoa len 4 loại tone xanh',
             img: 'assets/img/products/hoalen4.jpg',
             category: 'HOA LEN',
-            price: 699000,
+            price: 230000,
             desc: 'Bó hoa tulip len tone xanh gồm hoa hồng, hoa tulip, hoa linh đan, hoa lưu ly '
         },
         {
@@ -479,7 +479,7 @@ function createProduct() {
             title: 'Bó 11 bông sáp hồng nhạt',
             category: "HOA SÁP",
             img: 'assets/img/products/hoasap4.jpg',
-            price: 24000,
+            price: 240000,
             desc: 'Bó hoa sáp hồng pastel 11 bông buộc nơ siêu xinh',
         },
         {
