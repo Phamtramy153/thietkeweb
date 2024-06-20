@@ -2501,7 +2501,7 @@ margin-top: 30px
 
         @keyframes slideInFromLeft {
             from {
-                transform: translateX(-20%);
+                transform: translateX(-50%);
                 opacity: 0;
             }
             to {
@@ -2512,7 +2512,7 @@ margin-top: 30px
 
         @keyframes slideInFromRight {
             from {
-                transform: translateX(20%);
+                transform: translateX(50%);
                 opacity: 0;
             }
             to {
@@ -2524,7 +2524,7 @@ margin-top: 30px
 .logogo {
             display: block;
             margin: 50px auto; /* Center the logo and add some space */
-            width: 500px; /* Adjust the max-width as needed */
+            width: 400px; /* Adjust the max-width as needed */
   }  
 #content.hide{
     display: none;
