@@ -832,6 +832,7 @@ function renderProducts(showProduct) {
     if(showProduct.length == 0) {
         document.getElementById("home-title").style.display = "none";
         productHtml = `<div class="no-result"><div class="no-result-h">Tìm kiếm không có kết quả</div><div class="no-result-p">Xin lỗi, chúng tôi không thể tìm được kết quả hợp với tìm kiếm của bạn</div><div class="no-result-i"><i class="fa-regular fa-face-sad-tear"></i></div></div>`;
+        document.getElementById("home-title").scrollIntoView();
     } else {
         document.getElementById("home-title").style.display = "block";
         showProduct.forEach((product) => {
