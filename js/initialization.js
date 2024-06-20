@@ -434,7 +434,7 @@ function createProduct() {
             title: 'Cam Không Ham Không Được',
             category: "HOA ĐẤT SÉT NHẬT",
             img: 'assets/img/products/hoadatset11.jpg',
-            price: 1450000,
+            price: 145000,
             desc: 'Những đóa cúc và tulip tươi thắm cùng chú sư tử, bao quanh đám mây mềm mại, tạo nên một bức tranh sống động.',
         },
         {
