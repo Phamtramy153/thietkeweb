@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giới thiệu cửa hàng FLOHAN - Flower Handmade</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <div class="container">
@@ -57,5 +58,25 @@
         </div>
 
     </div>
+    <script>
+        // Khởi tạo ScrollReveal
+        ScrollReveal().reveal('.vision', {
+            origin: 'left',
+            distance: '20px',
+            duration: 800,
+            delay: 200,
+            easing: 'ease-in-out',
+            reset: true
+        });
+
+        ScrollReveal().reveal('.mission', {
+            origin: 'right',
+            distance: '20px',
+            duration: 800,
+            delay: 200,
+            easing: 'ease-in-out',
+            reset: true
+        });
+    </script>
 </body>
 </html>
