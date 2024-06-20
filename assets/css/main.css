@@ -2457,9 +2457,9 @@ input[type=number] {
 }
 
 .gallery h3 {
-    color: white;
+    color: #F37D6F;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .images {
@@ -2477,7 +2477,7 @@ input[type=number] {
 }
 
 .images img:hover {
-    transform: scale(1.2);}
+    transform: scale(1.1);}
 
 .intro h2
 {
