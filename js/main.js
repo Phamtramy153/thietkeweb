@@ -162,7 +162,7 @@ function showCart() {
                     ${vnd(parseInt(product.price))}
                     </span>
                 </div>
-                <p class="product-note"><i class="fa-light fa-pencil"></i><span>${product.note}</span></p>
+                <p class="product-note"><i class="fa-solid fa-pen"></i><span>${product.note}</span></p>
                 <div class="cart-item-control">
                     <button class="cart-item-delete" onclick="deleteCartItem(${product.id},this)">Xóa</button>
                     <div class="buttons_added">
@@ -703,7 +703,7 @@ function renderOrderProduct() {
                         <img src="${infosp.img}" alt="">
                         <div class="order-history-info">
                             <h4>${infosp.title}!</h4>
-                            <p class="order-history-note"><i class="fa-light fa-pen"></i> ${sp.note}</p>
+                            <p class="order-history-note"><i class="fa-solid fa-trash"></i> ${sp.note}</p>
                             <p class="order-history-quantity">x${sp.soluong}</p>
                         </div>
                     </div>
@@ -719,7 +719,7 @@ function renderOrderProduct() {
             productHtml += `<div class="order-history-control">
                 <div class="order-history-status">
                     <span class="order-history-status-sp ${classCompl}">${textCompl}</span>
-                    <button id="order-history-detail" onclick="detailOrder('${item.id}')"><i class="fa-regular fa-eye"></i> Xem chi tiết</button>
+                    <button id="order-history-detail" onclick="detailOrder('${item.id}')"><i class="fa-solid fa-eye"></i> Xem chi tiết</button>
                 </div>
                 <div class="order-history-total">
                     <span class="order-history-total-desc">Tổng tiền: </span>
@@ -765,27 +765,27 @@ function detailOrder(id) {
     document.querySelector(".modal.detail-order").classList.add("open");
     let detailOrderHtml = `<ul class="detail-order-group">
         <li class="detail-order-item">
-            <span class="detail-order-item-left"><i class="fa-light fa-calendar-days"></i> Ngày đặt hàng</span>
+            <span class="detail-order-item-left"><i class="fa-solid fa-calendar-days"></i> Ngày đặt hàng</span>
             <span class="detail-order-item-right">${formatDate(detail.thoigiandat)}</span>
         </li>
         <li class="detail-order-item">
-            <span class="detail-order-item-left"><i class="fa-light fa-truck"></i> Hình thức giao</span>
+            <span class="detail-order-item-left"><i class="fa-solid fa-truck"></i> Hình thức giao</span>
             <span class="detail-order-item-right">${detail.hinhthucgiao}</span>
         </li>
         <li class="detail-order-item">
-            <span class="detail-order-item-left"><i class="fa-light fa-clock"></i> Ngày nhận hàng</span>
+            <span class="detail-order-item-left"><i class="fa-solid fa-clock"></i> Ngày nhận hàng</span>
             <span class="detail-order-item-right">${(detail.thoigiangiao == "" ? "" : (detail.thoigiangiao + " - ")) + formatDate(detail.ngaygiaohang)}</span>
         </li>
         <li class="detail-order-item">
-            <span class="detail-order-item-left"><i class="fa-light fa-location-dot"></i> Địa điểm nhận</span>
+            <span class="detail-order-item-left"><i class="fa-solid fa-location-dot"></i> Địa điểm nhận</span>
             <span class="detail-order-item-right">${detail.diachinhan}</span>
         </li>
         <li class="detail-order-item">
-            <span class="detail-order-item-left"><i class="fa-thin fa-person"></i> Người nhận</span>
+            <span class="detail-order-item-left"><i class="fa-solid fa-person"></i> Người nhận</span>
             <span class="detail-order-item-right">${detail.tenguoinhan}</span>
         </li>
         <li class="detail-order-item">
-            <span class="detail-order-item-left"><i class="fa-light fa-phone"></i> Số điện thoại nhận</span>
+            <span class="detail-order-item-left"><i class="fa-solid fa-phone"></i> Số điện thoại nhận</span>
             <span class="detail-order-item-right">${detail.sdtnhan}</span>
         </li>
     </ul>`
