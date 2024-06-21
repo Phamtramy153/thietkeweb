@@ -2850,6 +2850,8 @@ border-radius: 20px;
     margin: 20px auto;
     padding: 20px;
     background-color: white; /* Màu nền */
+    border: 1px solid #ddd; /* Thêm viền */
+    border-radius: 8px; /* Bo góc viền */
     box-sizing: border-box;
 }
 
@@ -2865,6 +2867,7 @@ border-radius: 20px;
     border-radius: 8px;
     padding: 40px 20px;
     margin-bottom: 20px;
+    border: 1px solid #ddd; /* Thêm viền */
     box-sizing: border-box;
 }
 
@@ -2898,6 +2901,7 @@ border-radius: 20px;
     list-style-type: none;
     padding-left: 20px;
 }
+
 
 
 
