@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Điều khoản</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
         h1 {
             text-align: center;
             color: #F37D6F;
@@ -14,7 +20,7 @@
         }
         h2 {
             color: #F3A699;
-            margin-top: 30px;
+            margin-top: 10px; /* Giảm khoảng trắng trên đầu tiêu đề */
             margin-bottom: 10px;
             font-size: 1.25em;
         }
@@ -23,17 +29,37 @@
             margin-bottom: 10px;
             padding-left: 20px;
         }
-
         .custom-list li:before {
             content: "•";
             position: absolute;
             left: 0;
             color: #000;
         }
+        .container-rule {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .section p, .section ul {
+            margin: 0;
+            padding: 0;
+        }
+        .section ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container-rule">
         <h1>Điều khoản và chính sách</h1>
 
         <div class="section">
@@ -43,9 +69,7 @@
 
         <div class="section">
             <h2>Sử dụng website</h2>
-            <ul class="custom-list">
-                <p>Nội dung trên website chỉ được sử dụng cho mục đích cá nhân và phi thương mại. Không sao chép, tái sử dụng hoặc phân phối nội dung nếu không có sự đồng ý bằng văn bản từ Flohan.</p>
-            </ul>
+            <p>Nội dung trên website chỉ được sử dụng cho mục đích cá nhân và phi thương mại. Không sao chép, tái sử dụng hoặc phân phối nội dung nếu không có sự đồng ý bằng văn bản từ Flohan.</p>
         </div>
 
         <div class="section">
