@@ -2439,7 +2439,7 @@ input[type=number] {
 }
 
 .employee img:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 .employee img {
     width: 150px;
@@ -2464,7 +2464,7 @@ input[type=number] {
 
 .images {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     margin-bottom: 20px;
 }
@@ -2483,17 +2483,17 @@ input[type=number] {
 {
 text-align: center;
 color: #F37D6F;
-font-size: 30px;
+font-size: 25px;
 margin-bottom: 30px;
 margin-top: 30px
 }
 .intro p
 {
     font-size: 16px;
-    text-align: justify;
+    text-align: center;
     line-height: 2;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
     
 }
 .vision:hover, .mission:hover {
