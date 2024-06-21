@@ -2849,11 +2849,14 @@ border-radius: 20px;
     width: 90%;
     margin: 20px auto;
     padding: 20px;
-    background-color: white; /* Màu nền */
-    border-radius: 8px; /* Bo góc viền */
+    background-color: white; 
+    border-radius: 8px; 
+    transition: transform 0.2s ease;
     box-sizing: border-box;
-    /* Xóa border hoặc thay đổi thành border: none; */
+    
 }
+.container-rule:hover {
+    transform: scale(1.02);
 
 .container-rule h1 {
     text-align: center;
@@ -2867,9 +2870,12 @@ border-radius: 20px;
     border-radius: 8px;
     padding: 40px 20px;
     margin-bottom: 20px;
-    border: 1px solid #ddd; /* Thêm viền */
+    border: 1px solid #ddd; 
+    transition: transform 0.3s ease;
     box-sizing: border-box;
 }
+.section:hover {
+    transform: scale(1.02); 
 
 .section h2 {
     color: #F3A699;
