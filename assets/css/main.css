@@ -2851,12 +2851,9 @@ border-radius: 20px;
     padding: 20px;
     background-color: white; 
     border-radius: 8px; 
-    transition: transform 0.2s ease;
     box-sizing: border-box;
     
 }
-.container-rule:hover {
-    transform: scale(1.02);
 
 .container-rule h1 {
     text-align: center;
@@ -2871,7 +2868,7 @@ border-radius: 20px;
     padding: 40px 20px;
     margin-bottom: 20px;
     border: 1px solid #ddd; 
-    transition: transform 0.3s ease;
+    transition: transform 0.2s;
     box-sizing: border-box;
 }
 .section:hover {
