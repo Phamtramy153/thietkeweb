@@ -2850,9 +2850,9 @@ border-radius: 20px;
     margin: 20px auto;
     padding: 20px;
     background-color: white; /* Màu nền */
-    border: 1px solid #ddd; /* Thêm viền */
     border-radius: 8px; /* Bo góc viền */
     box-sizing: border-box;
+    /* Xóa border hoặc thay đổi thành border: none; */
 }
 
 .container-rule h1 {
@@ -2901,6 +2901,7 @@ border-radius: 20px;
     list-style-type: none;
     padding-left: 20px;
 }
+
 
 
 
