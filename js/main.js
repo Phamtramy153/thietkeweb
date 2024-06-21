@@ -703,7 +703,7 @@ function renderOrderProduct() {
                         <img src="${infosp.img}" alt="">
                         <div class="order-history-info">
                             <h4>${infosp.title}!</h4>
-                            <p class="order-history-note"><i class="fa-solid fa-trash"></i> ${sp.note}</p>
+                            <p class="order-history-note"><i class="fa-solid fa-pen"></i> ${sp.note}</p>
                             <p class="order-history-quantity">x${sp.soluong}</p>
                         </div>
                     </div>
