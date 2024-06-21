@@ -2849,10 +2849,8 @@ border-radius: 20px;
     width: 90%;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ddd; /* Khung xám nhạt (#ddd), độ dày 1px */
-    border-radius: 8px; /* Bo góc khung */
     background-color: white; /* Màu nền */
-    box-sizing: border-box; /* Đảm bảo padding và border không làm thay đổi kích thước */
+    box-sizing: border-box;
 }
 
 .container-rule h1 {
@@ -2868,7 +2866,6 @@ border-radius: 20px;
     padding: 40px 20px;
     margin-bottom: 20px;
     box-sizing: border-box;
-    border: 1px solid #ddd; /* Khung xám nhạt (#ddd), độ dày 1px */
 }
 
 .section h2 {
