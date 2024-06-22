@@ -2552,7 +2552,7 @@ margin-top: 30px
 
 
 /* Form container */
-.form-containerct {
+.form-container_ct {
     flex: 1;
     margin-left: 20px;
     margin-top: 40px;
@@ -2561,19 +2561,19 @@ margin-top: 30px
     padding: 30px;
 }
 
-.form-containerct h2 {
+.form-container_ct h2 {
     font-size: 24px;
     margin-bottom: 20px;
     color: white;
 
 }
 
-.form-groupct {
+.form-group_ct {
     margin-bottom: 15px;
     
 }
 
-.form-groupct label {
+.form-group_ct label {
     display: block;
     margin-bottom: 8px;
 
@@ -2659,7 +2659,7 @@ iframe {
     margin-top: 20px;
 }
 
- .form-groupct input, .form-groupct textarea {
+ .form-group_ct input, .form-group_ct textarea {
             padding: 8px;
             margin-top: 5px;
             width: 100%;
