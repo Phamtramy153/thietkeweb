@@ -2554,14 +2554,18 @@ margin-top: 30px
 /* Form container */
 .form-container {
     flex: 1;
-    margin-right: 30px;
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: #F37D6F;
+    border-radius: 20px;
+    padding: 30px;
 }
 
 .form-container h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #F37D6F;
+    color: white;
+
 }
 
 .form-group {
@@ -2573,11 +2577,11 @@ margin-top: 30px
     display: block;
     margin-bottom: 8px;
 
-    color: darkslategrey;
+    color: white;
 }
 button[type="submit"] {
-    background-color: #F37D6F;
-    color: white;
+    background-color: white;
+    color: #F37D6F;
     padding: 12px 20px;
     border: none;
     border-radius: 10px;
@@ -2586,7 +2590,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #F37D6F;
+    background-color: lightpink;
 }
 
 /* Info container */
@@ -2594,6 +2598,7 @@ button[type="submit"]:hover {
     flex: 1;
     width:200%;
     margin-top: 40px;
+    margin-left: 20px;
 }
 
 .info-container h3 {
@@ -2644,12 +2649,14 @@ button[type="submit"]:hover {
 .container-iframe {
     margin-top: 20px;
     text-align: center;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 iframe {
     border: 1px solid #ddd;
     border-radius: 8px;
+    margin-right: 30px;
+    margin-top: 20px;
 }
 
  .form-group input, .form-group textarea {
