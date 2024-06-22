@@ -2552,7 +2552,7 @@ margin-top: 30px
 
 
 /* Form container */
-.form-container {
+.form-containerct {
     flex: 1;
     margin-left: 20px;
     margin-top: 40px;
@@ -2561,19 +2561,19 @@ margin-top: 30px
     padding: 30px;
 }
 
-.form-container h2 {
+.form-containerct h2 {
     font-size: 24px;
     margin-bottom: 20px;
     color: white;
 
 }
 
-.form-group {
+.form-groupct {
     margin-bottom: 15px;
     
 }
 
-.form-group label {
+.form-groupct label {
     display: block;
     margin-bottom: 8px;
 
@@ -2638,7 +2638,7 @@ button[type="submit"]:hover {
         width: 80%;
     }
 
-    .form-container,
+    .form-containerct,
     .info-container {
         margin-right: 0;
         margin-bottom: 20px;
@@ -2659,7 +2659,7 @@ iframe {
     margin-top: 20px;
 }
 
- .form-group input, .form-group textarea {
+ .form-groupct input, .form-groupct textarea {
             padding: 8px;
             margin-top: 5px;
             width: 100%;
