@@ -2859,7 +2859,11 @@ border-radius: 20px;
     background-color: white; 
     border-radius: 8px; 
     box-sizing: border-box;
+    trasition: transform 0.2s ease;
     
+}
+.container-rule:hover {
+    transform: scale(1.05)
 }
 
 .container-rule h1 {
