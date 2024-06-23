@@ -2879,12 +2879,11 @@ border-radius: 20px;
     margin-bottom: 20px;
     border: 1px solid #ddd; 
     box-sizing: border-box;
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease;
 }
-.section: hover{
-    transform: scale(1.05)
+.section:hover {
+    transform: scale(1.05);
 }
-
 
 .section h2 {
     color: #F3A699;
